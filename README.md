@@ -11,7 +11,7 @@ A collection of AWESOME things about BIG AI models.
 - [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
 
 <p align="center">
-    <img src="img/language-big-model.png" alt="Big models in NLP" width="460"/>
+    <img src="img/ai-training-computation.png" alt="Big models in NLP" width="460"/>
 </p >
 
 ## Models
