@@ -22,7 +22,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
-- **CPM-2** [[BAAI]]() June 2021 [[code]](https://github.com/TsinghuaAI/CPM)  
+- **CPM-2** [[BAAI]]() June 2021 [</>](https://github.com/TsinghuaAI/CPM)  
     CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
 
     ```yaml
@@ -64,7 +64,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
-- **CPM** [[BAAI]]() Dec 2020 [[code]](https://github.com/TsinghuaAI/CPM)  
+- **CPM** [[BAAI]]() Dec 2020 [</>](https://github.com/TsinghuaAI/CPM)  
     CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
 
     ```yaml
@@ -97,7 +97,7 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR
     ```
 
-- **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct 2019 [[code]](https://github.com/google-research/text-to-text-transfer-transformer)  
+- **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct 2019 [</>](https://github.com/google-research/text-to-text-transfer-transformer)  
     Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [JMLR'19](https://arxiv.org/abs/1910.10683)
 
     ```yaml
@@ -109,7 +109,7 @@ A collection of AWESOME things about BIG AI models.
     Obective: MLM
     ```
 
-- **Megatron-LM** [[Nvidia]]() Sept 2019 [[code]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron-LM** [[Nvidia]]() Sept 2019 [</>](https://github.com/NVIDIA/Megatron-LM)  
     Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
 
     ```yaml
@@ -120,7 +120,7 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR; MLM
     ```
 
-- **XLNet** [[Google]]() June 2019 [[code]](https://github.com/zihangdai/xlnet)  
+- **XLNet** [[Google]]() June 2019 [</>](https://github.com/zihangdai/xlnet)  
     XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NeurIPS'19]](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html)
 
     ```yaml
@@ -133,7 +133,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: PLM
     ```
 
-- **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [[code]](https://github.com/facebookresearch/fairseq)  
+- **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [</>](https://github.com/facebookresearch/fairseq)  
     RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Preprint]](https://arxiv.org/abs/1907.11692)  
 
     ```yaml
@@ -145,7 +145,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
-- **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb 2019 [[code]](https://github.com/openai/gpt-2)  
+- **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb 2019 [</>](https://github.com/openai/gpt-2)  
     Language Models are Unsupervised Multitask Learners [[Preprint]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
     ```yaml
@@ -156,7 +156,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
-- **BERT** [[Google]]() Oct 2018 [[code]](https://github.com/google-research/bert)  
+- **BERT** [[Google]]() Oct 2018 [</>](https://github.com/google-research/bert)  
     BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/pdf/1810.04805.pdf)
 
     ```yaml
@@ -186,22 +186,22 @@ A collection of AWESOME things about BIG AI models.
 
 - **Pathways** [[Google]](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/) Mar 2021  
     Pathways: Asynchronous Distributed Dataflow for ML [[Preprint]](https://arxiv.org/abs/2203.12533)
-- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov 2021 [[code]](https://github.com/hpcaitech/ColossalAI)  
+- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov 2021 [</>](https://github.com/hpcaitech/ColossalAI)  
     Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training [[Preprint]](https://arxiv.org/abs/2110.14883)
-- **OneFlow*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [[code]](https://github.com/OneFlow-Inc/oneflow)  
+- **OneFlow*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [</>](https://github.com/OneFlow-Inc/oneflow)  
     OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
-- **MindSpore*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [[code]](https://github.com/mindspore-ai/mindspore)
-- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [[code]](https://github.com/microsoft/DeepSpeed)  
+- **MindSpore*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [</>](https://github.com/mindspore-ai/mindspore)
+- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [</>](https://github.com/microsoft/DeepSpeed)  
     ZeRO: Memory Optimizations Toward Training Trillion Parameter Models [[SC'20]](https://arxiv.org/abs/1910.02054)
-- **Megatron** [[Nivida]]() Sept 2019 [[code]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron** [[Nivida]]() Sept 2019 [</>](https://github.com/NVIDIA/Megatron-LM)  
     Megatron: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
-- **PaddlePaddle** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov 2018 [[code]](https://github.com/PaddlePaddle/Paddle)  
+- **PaddlePaddle** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov 2018 [</>](https://github.com/PaddlePaddle/Paddle)  
     End-to-end Adaptive Distributed Training on PaddlePaddle [[Preprint]](https://arxiv.org/abs/2112.02752)
-- **Horovod** [[Uber]](https://horovod.ai/) Feb 2018 [[code]](https://github.com/horovod/horovod)  
+- **Horovod** [[Uber]](https://horovod.ai/) Feb 2018 [</>](https://github.com/horovod/horovod)  
     Horovod: fast and easy distributed deep learning in TensorFlow [[Preprint]](https://arxiv.org/abs/1802.05799)
-- **PyTorch*** [[Meta]](https://pytorch.org/) Sept 2016 [[code]](https://github.com/pytorch/pytorch)  
+- **PyTorch*** [[Meta]](https://pytorch.org/) Sept 2016 [</>](https://github.com/pytorch/pytorch)  
     PyTorch: An Imperative Style, High-Performance Deep Learning Library [[NeurIPS'19]](http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf)
-- **Tensorflow*** [[Google]](https://www.tensorflow.org/) Nov 2015 [[code]](https://github.com/tensorflow/tensorflow)  
+- **Tensorflow*** [[Google]](https://www.tensorflow.org/) Nov 2015 [</>](https://github.com/tensorflow/tensorflow)  
     TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
 ## Others
@@ -232,7 +232,7 @@ A collection of AWESOME things about BIG AI models.
     Params: 174T
     ```
 
-- EVA [BAAI] Aug 2021 [[code]](https://github.com/BAAI-WuDao/EVA)  
+- EVA [BAAI] Aug 2021 [</>](https://github.com/BAAI-WuDao/EVA)  
     EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training [[Preprint]](https://arxiv.org/abs/2108.01547)
 
 ## Keys Explanations
