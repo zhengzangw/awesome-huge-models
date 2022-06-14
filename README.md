@@ -10,7 +10,9 @@ A collection of AWESOME things about BIG AI models.
 - [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101)
 - [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
 
-![Big model in NLP](img/language-big-model.png)
+<p align="center">
+    <img src="img/language-big-model.png" alt="Big models in NLP" width="460"/>
+</p >
 
 ## Models
 
