@@ -6,49 +6,104 @@ A collection of AWESOME things about BIG AI models.
 
 ## Survey
 
+- [Compute Trends Across Three Eras of Machine Learning](https://arxiv.org/abs/2202.05924) [[chart](https://ourworldindata.org/grapher/ai-training-computation)]
 - [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101)
 - [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
 
+![Big model in NLP](img/language-big-model.png)
+
 ## Models
 
-- **OPT-175B** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [</>](https://github.com/facebookresearch/metaseq)  
-    OPT: Open Pre-trained Transformer Language Models [[preprint]](https://arxiv.org/abs/2205.01068)
+- **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr 2022  
+    PaLM: Scaling Language Modeling with Pathways [[Preprint]](https://arxiv.org/abs/2204.02311)
 
     ```yaml
-    Field: NLP
+    Field: Language
+    Params: 550B
+    Training Data: (780B tokens)
+    Training Cost: ~$10M
+    Training petaFLOPs: 2.5B
+    ```
+
+- **OPT** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [</>](https://github.com/facebookresearch/metaseq)  
+    OPT: Open Pre-trained Transformer Language Models [[Preprint]](https://arxiv.org/abs/2205.01068)
+
+    ```yaml
+    Field: Language
     Params: 175B
     Training Data: 800GB
     Architecutre: De
     Objective: LTR
     ```
 
+- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar 2022  
+    Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
+
+    ```yaml
+    Field: Language
+    Params: 70B
+    Training Data: ~5.2TB
+    Training petaFLOPs: 580M
+    Architecture: De
+    ```
+
+- **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec 2021  
+    Scaling Language Models: Methods, Analysis & Insights from Training Gopher [[Preprint]](https://arxiv.org/abs/2112.11446)
+
+    ```yaml
+    Field: Language
+    Params: 280B
+    Training Data: ~1.3TB (300B tokens)
+    Training petaFLOPs: 630M
+    Architecture: De
+    ```
+
+- **Yuan 1.0** [[inspur]](https://air.inspur.com/home) Oct 2021  
+    Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2110.04725)
+
+    ```yaml
+    Field: Language
+    Params: 245B
+    Training Data: ~5TB (180B tokens, Chinese)
+    Training petaFLOPs: 410M
+    Architecture: De, MoE
+    ```
+
+- **MT-NLG** [[Microsoft, Nvidia]](https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/) Oct 2021  
+    Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model [[Preprint]](https://arxiv.org/abs/2201.11990)
+
+    ```yaml
+    Field: Language
+    Params: 530B
+    Training Data: (339B tokens)
+    Training petaFLOPs: 1.4B
+    Architecture: De
+    Obective: LTR
+    ```
+
+- Jurassic-1
+
+- ERNIE 3.0
+
 - **CPM-2** [[BAAI]]() June 2021 [</>](https://github.com/TsinghuaAI/CPM)  
     CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 198B
-    Training Data: Chinese 2.3TB, English 300GB (2.6TB)
+    Training Data: 2.6TB (Chinese 2.3TB, English 300GB)
     Architecture: En-De
     Objective: MLM
-    ```
-
-- **PLUG** [[Alibaba]]() Apr 2021  
-
-    ```yaml
-    Field: NLP
-    Params: 25B
-    Training Data: Chinese (1TB)
-    Architecture: En-De
     ```
 
 - **PanGu-α** [[Huawei]]() Apr 2021  
     PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation [[Preprint]](https://arxiv.org/abs/2104.12369)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 200B
-    Training Data: Chinese (1.1TB)
+    Training Data: 1.1TB (Chinese)
+    Training petaFLOPs: 58M
     Architecture: De
     Objective: LTR
     ```
@@ -57,9 +112,10 @@ A collection of AWESOME things about BIG AI models.
     Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 1.6T
-    Training Data: (750GB)
+    Training Data: 750GB
+    Training petaFLOPs: 82M
     Architecture: En-De
     Objective: MLM
     ```
@@ -68,9 +124,10 @@ A collection of AWESOME things about BIG AI models.
     CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
 
     ```yaml
-    Field: NLP (Chinese)
+    Field: Language (Chinese)
     Params: 2.6B
-    Training Data: Chinese (~100G)
+    Training Data: ~100G (Chinese)
+    Training petaFLOPs: 1.8M
     Architecture: De
     Objective: LTR
     ```
@@ -79,20 +136,22 @@ A collection of AWESOME things about BIG AI models.
     Language Models are Few-Shot Learners [[NeurIPS'20]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)  
 
     ```yaml
-    Field: NLP  
+    Field: Language  
     Params: 175B  
-    Training Data: ~680B Tokens (45TB)  
+    Training Data: 45TB (~680B Tokens)
     Training Time: 95 A100 GPU years (355 V100 GPU years)
     Training Cost: $4.6M
+    Training petaFLOPs: 310M
     Architecture: De
     Obective: LTR
     ```
 
-- **Turing-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb 2020
+- **T-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb 2020
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 17B
+    Training petaFLOPs: 16M
     Architecture: De
     Obective: LTR
     ```
@@ -101,10 +160,11 @@ A collection of AWESOME things about BIG AI models.
     Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [JMLR'19](https://arxiv.org/abs/1910.10683)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 11B
-    Training Data: (~800 GB)
+    Training Data: ~800 GB
     Training Cost: $1.5M
+    Training petaFLOPs: 41M
     Architecture: En-De
     Obective: MLM
     ```
@@ -113,9 +173,10 @@ A collection of AWESOME things about BIG AI models.
     Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 8.3B
-    Training Data: (174 GB)
+    Training Data: 174 GB
+    Training petaFLOPs: 57M
     Architecture: En-De; En
     Obective: LTR; MLM
     ```
@@ -124,9 +185,9 @@ A collection of AWESOME things about BIG AI models.
     XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NeurIPS'19]](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 340M
-    Training Data: 33B words (113GB)
+    Training Data: 113GB (33B words)
     Training Time: 1280 TPUv3 days
     Training Cost: $245k
     Architecture: En
@@ -137,9 +198,9 @@ A collection of AWESOME things about BIG AI models.
     RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Preprint]](https://arxiv.org/abs/1907.11692)  
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 354M
-    Training Data: (160GB)
+    Training Data: 160GB
     Training Time: 1024 V100 GPU days
     Architecture: En
     Objective: MLM
@@ -149,9 +210,11 @@ A collection of AWESOME things about BIG AI models.
     Language Models are Unsupervised Multitask Learners [[Preprint]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
     ```yaml
-    Field: NLP  
+    Field: Language  
     Params: 1.5B
-    Training Data: ~8M web pages (40GB)
+    Training Data: 40GB (~8M web pages)
+    Training Cost: ~$43k
+    Training petaFLOPs: 1.5M
     Architecture: De
     Objective: LTR
     ```
@@ -160,11 +223,12 @@ A collection of AWESOME things about BIG AI models.
     BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/pdf/1810.04805.pdf)
 
     ```yaml
-    Field: NLP
+    Field: Language
     Params: 330M
-    Training Data: 3.3B words (16GB)
+    Training Data: 16GB (3.3B words)
     Training Time: 64 TPUv2 days (280 V100 GPU days)
     Training Cost: ~$7k
+    Training petaFLOPs: 290k
     Architecture: En
     Objective: MLM, NSP
     ```
@@ -173,9 +237,10 @@ A collection of AWESOME things about BIG AI models.
     Improving Language Understanding by Generative Pre-Training [[Preprint]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
     ```yaml
-    Field: NLP  
+    Field: Language  
     Params: 117M 
-    Training Data: 7k books (1GB)
+    Training Data: 1GB (7k books)
+    Training petaFLOPs: 18k
     Architecture: De
     Objective: LTR
     ```
@@ -255,3 +320,4 @@ A collection of AWESOME things about BIG AI models.
   - LTR: Left-To-Right Language Modeling
   - NSP: Next Sentence Prediction
   - PLM: Permuted Language Modeling
+- 1 petaFLOPs = 1e15 FLOPs
