@@ -11,7 +11,7 @@ A collection of AWESOME things about BIG AI models.
 
 ## Models
 
-- **OPT-175B** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [:octocat:](https://github.com/facebookresearch/metaseq)  
+- **OPT-175B** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [</>](https://github.com/facebookresearch/metaseq)  
     OPT: Open Pre-trained Transformer Language Models [[preprint]](https://arxiv.org/abs/2205.01068)
 
     ```yaml
@@ -22,7 +22,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
-- **CPM-2** [BAAI]() June 2021 [[code]](https://github.com/TsinghuaAI/CPM)  
+- **CPM-2** [[BAAI]]() June 2021 [[code]](https://github.com/TsinghuaAI/CPM)  
     CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
 
     ```yaml
@@ -33,7 +33,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
-- **PLUG** [Alibaba]() Apr 2021  
+- **PLUG** [[Alibaba]]() Apr 2021  
 
     ```yaml
     Field: NLP
@@ -42,7 +42,7 @@ A collection of AWESOME things about BIG AI models.
     Architecture: En-De
     ```
 
-- **PanGu-α** [Huawei]() Apr 2021  
+- **PanGu-α** [[Huawei]]() Apr 2021  
     PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation [[Preprint]](https://arxiv.org/abs/2104.12369)
 
     ```yaml
@@ -53,7 +53,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
-- **Switch Transformer**  [Google]() Jan 2021  
+- **Switch Transformer**  [[Google]]() Jan 2021  
     Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
     ```yaml
@@ -64,7 +64,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
-- **CPM** [BAAI]() Dec 2020 [[code]](https://github.com/TsinghuaAI/CPM)  
+- **CPM** [[BAAI]]() Dec 2020 [[code]](https://github.com/TsinghuaAI/CPM)  
     CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
 
     ```yaml
@@ -109,7 +109,7 @@ A collection of AWESOME things about BIG AI models.
     Obective: MLM
     ```
 
-- **Megatron-LM** [Nvidia]() Sept 2019 [[code]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron-LM** [[Nvidia]]() Sept 2019 [[code]](https://github.com/NVIDIA/Megatron-LM)  
     Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
 
     ```yaml
@@ -120,7 +120,7 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR; MLM
     ```
 
-- **XLNet** [Google]() June 2019 [[code]](https://github.com/zihangdai/xlnet)  
+- **XLNet** [[Google]]() June 2019 [[code]](https://github.com/zihangdai/xlnet)  
     XLNet: Generalized Autoregressive Pretraining for Language Understanding [[NeurIPS'19]](https://papers.nips.cc/paper/2019/hash/dc6a7e655d7e5840e66733e9ee67cc69-Abstract.html)
 
     ```yaml
@@ -156,7 +156,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
-- **BERT** [Google]() Oct 2018 [[code]](https://github.com/google-research/bert)  
+- **BERT** [[Google]]() Oct 2018 [[code]](https://github.com/google-research/bert)  
     BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/pdf/1810.04805.pdf)
 
     ```yaml
