@@ -16,25 +16,35 @@ A collection of AWESOME things about BIG AI models.
 
 ## Models
 
+- **UL2** [[Google]]() May 2022  
+    Unifying Language Learning Paradigms [[Preprint]](https://arxiv.org/abs/2205.05131)
+
+    ```yaml
+    Field: Language
+    Params: 20B
+    Training Data: 800GB
+    Achitecture: En-De
+    ```
+
+- **Gato** [[DeepMind]](https://www.deepmind.com/publications/a-generalist-agent) May 2022  
+    A Generalist Agent [[Preprint]](https://arxiv.org/abs/2205.06175)
+
+    ```yaml
+    Field: Reinforcement Learning
+    Params: 1.2B
+    Training Data: (604 Tasks)
+    Objective: Supervised
+    ```
+
 - **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr 2022  
     PaLM: Scaling Language Modeling with Pathways [[Preprint]](https://arxiv.org/abs/2204.02311)
 
     ```yaml
     Field: Language
     Params: 550B
-    Training Data: (780B tokens)
+    Training Data: 3TB (780B tokens)
     Training Cost: $10M
     Training petaFLOPs: 2.5B
-    Architecture: De
-    ```
-
-- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) June 2020 [</>](https://github.com/EleutherAI/gpt-neox)  
-    GPT-NeoX-20B: An Open-Source Autoregressive Language Model [[Preprint]](https://arxiv.org/abs/2204.06745)
-
-    ```yaml
-    Field: Language
-    Params: 20B
-    Training petaFLOPs: 93B
     Architecture: De
     ```
 
@@ -46,7 +56,16 @@ A collection of AWESOME things about BIG AI models.
     Params: 175B
     Training Data: 800GB
     Architecutre: De
-    Objective: LTR
+    ```
+
+- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) Apr 2022 [</>](https://github.com/EleutherAI/gpt-neox)  
+    GPT-NeoX-20B: An Open-Source Autoregressive Language Model [[Preprint]](https://arxiv.org/abs/2204.06745)
+
+    ```yaml
+    Field: Language
+    Params: 20B
+    Training petaFLOPs: 93B
+    Architecture: De
     ```
 
 - **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar 2022  
@@ -69,7 +88,27 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
-- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan 2022
+- **SEER** [[Meta]]() Feb 2022 [</>](https://github.com/facebookresearch/vissl)  
+    Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision [[Preprint]](https://arxiv.org/abs/2202.08360v2)
+
+    ```yaml
+    Field: Vision
+    Params: 10B
+    Training Data: (1B images)
+    Architecture: Convolution
+    Objective: SwAV
+    ```
+
+- **ST-MoE** [[Google]]() Feb 2022  
+    ST-MoE: Designing Stable and Transferable Sparse Expert Models [[Preprint]](https://arxiv.org/abs/2202.08906)
+
+    ```yaml
+    Field: Language
+    Params: 296B
+    Architecture: En-De, MoE
+    ```
+
+- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan 2022  
     LaMDA: Language Models for Dialog Applications [[Preprint]](https://arxiv.org/abs/2201.08239)
 
     ```yaml
@@ -86,7 +125,7 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language
     Params: 1.2T
-    Architecture: MoE
+    Architecture: De, MoE
     ```
 
 - **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec 2021  
@@ -98,6 +137,17 @@ A collection of AWESOME things about BIG AI models.
     Training Data: 1.3TB (300B tokens)
     Training petaFLOPs: 630M
     Architecture: De
+    ```
+
+- **SwinV2-G** [[]] Nov 2021 [</>](https://github.com/microsoft/Swin-Transformer)  
+    Swin Transformer V2: Scaling Up Capacity and Resolution [[CVPR'22]](https://arxiv.org/abs/2111.09883v2)
+
+    ```yaml
+    Field: Vision
+    Params: 3B
+    Training Data: 70M
+    Architecture: Transformer
+    Objective: Supervised
     ```
 
 - **Yuan 1.0** [[inspur]](https://air.inspur.com/home) Oct 2021  
@@ -120,7 +170,6 @@ A collection of AWESOME things about BIG AI models.
     Training Data: (339B tokens)
     Training petaFLOPs: 1.4B
     Architecture: De
-    Obective: LTR
     ```
 
 - **Plato-XL** [[Baidu]](http://research.baidu.com/Blog/index-view?id=163) Sept 2021  
@@ -153,6 +202,41 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
+- **ViT-G/14** [[Google]]() June 2021  
+    Scaling Vision Transformers [[Preprint]](https://arxiv.org/abs/2106.04560)
+
+    ```yaml
+    Field: Vision
+    Params: 1.8B
+    Training Data: (300M images)
+    Training petaFLOPs: 3.4M
+    Architecture: Transformer
+    Objective: Supervised
+    ```
+
+- **CoAtNet** [[Google]](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html) June 2021 [</>](https://github.com/chinhsuanwu/coatnet-pytorch)
+
+    ```yaml
+    Field: Vision
+    Params: 2.4B
+    Training Data: (300M images)
+    Architecture: Transformer, Convolution
+    Objective: Supervised
+    ```
+
+- **V-MoE** [[Google]](https://ai.googleblog.com/2022/01/scaling-vision-with-sparse-mixture-of.html) June 2021  
+    Scaling Vision with Sparse Mixture of Experts [[NeurIPS'21]](https://proceedings.neurips.cc//paper/2021/file/48237d9f2dea8c74c2a72126cf63d933-Paper.pdf)
+
+    ```yaml
+    Field: Vision
+    Params: 15B
+    Training Data: (300M images)
+    Training Time: 16.8k TPUv3 days
+    Training petaFLOPs: 33.9M
+    Architecture: Transformer, MoE
+    Objective: Supervised
+    ```
+
 - **CPM-2** [[BAAI]]() June 2021 [</>](https://github.com/TsinghuaAI/CPM)  
     CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
 
@@ -164,6 +248,16 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
+- **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [</>](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
+    HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units [[Preprint]](https://arxiv.org/abs/2106.07447)
+
+    ```yaml
+    Field: Speech
+    Params: 1B
+    Training Data: (60k hours)
+    Objective: MLM
+    ```
+
 - **HyperClova** [[Naver]](https://www.navercorp.com/promotion/pressReleasesView/30546) May 2021  
     What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers [[Preprint]](https://arxiv.org/abs/2109.04650v1)
 
@@ -172,6 +266,7 @@ A collection of AWESOME things about BIG AI models.
     Params: 82B
     Training Data: (562B tokens, Korean)
     Training petaFLOPs: 63B
+    Architecture: De
     ```
 
 - **ByT5** [[Google]]() May 2021 [</>](https://github.com/google-research/byt5)  
@@ -193,7 +288,6 @@ A collection of AWESOME things about BIG AI models.
     Training Data: 1.1TB (Chinese)
     Training petaFLOPs: 58M
     Architecture: De
-    Objective: LTR
     ```
 
 - **mT5** [[Google]]() Mar 2021 [</>](https://github.com/google-research/multilingual-t5)  
@@ -206,25 +300,7 @@ A collection of AWESOME things about BIG AI models.
     Architecture: En-De
     ```
 
-- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr 2020 [</>](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
-    Recipes for building an open-domain chatbot [[Preprint]](https://arxiv.org/abs/2004.13637)
-
-    ```yaml
-    Field: Language (Dialogue)
-    Params: 9.4B
-    ```
-
-- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan 2020  
-    Towards a Human-like Open-Domain Chatbot [[Preprint]](https://arxiv.org/abs/2001.09977)
-
-    ```yaml
-    Field: Language (Dialogue)
-    Params: 2.6B
-    Training Data: 341GB (40B words)
-    Training petaFLOPs: 110M
-    ```
-
-- **Switch Transformer**  [[Google]]() Jan 2021  
+- **Switch Transformer**  [[Google]]() Jan 2021 [</>](https://github.com/google-research/t5x)  
     Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
     ```yaml
@@ -232,7 +308,7 @@ A collection of AWESOME things about BIG AI models.
     Params: 1.6T
     Training Data: 750GB
     Training petaFLOPs: 82M
-    Architecture: En-De
+    Architecture: En-De, MoE
     Objective: MLM
     ```
 
@@ -246,6 +322,29 @@ A collection of AWESOME things about BIG AI models.
     Training petaFLOPs: 1.8M
     Architecture: De
     Objective: LTR
+    ```
+
+- **ViT-H/14** [[Google]](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html) Oct 2020 [</>](https://github.com/google-research/vision_transformer)  
+    An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR'20]](https://arxiv.org/abs/2010.11929)
+
+    ```yaml
+    Field: Vision
+    Params: 632M
+    Training Data: (300M images)
+    Training petaFLOPs: 13M
+    Architecture: Transformer
+    Objective: Supervised
+    ```
+
+- **wav2vec 2.0** [[Meta]](https://arxiv.org/abs/2006.11477) Oct 2020 [</>](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
+    wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [NeurIPS'20](https://arxiv.org/abs/2006.11477)
+
+    ```yaml
+    Field: Speech
+    Params: 317M
+    Training Data: (50k hours)
+    Training petaFLOPs: 430M
+    Objective: MLM
     ```
 
 - **GPT-3** [[OpenAI]](https://openai.com/api/) May 2020  
@@ -262,6 +361,14 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR
     ```
 
+- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr 2020 [</>](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
+    Recipes for building an open-domain chatbot [[Preprint]](https://arxiv.org/abs/2004.13637)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 9.4B
+    ```
+
 - **T-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb 2020
 
     ```yaml
@@ -270,6 +377,16 @@ A collection of AWESOME things about BIG AI models.
     Training petaFLOPs: 16M
     Architecture: De
     Obective: LTR
+    ```
+
+- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan 2020  
+    Towards a Human-like Open-Domain Chatbot [[Preprint]](https://arxiv.org/abs/2001.09977)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 2.6B
+    Training Data: 341GB (40B words)
+    Training petaFLOPs: 110M
     ```
 
 - **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) [</>](https://github.com/deepmind/alphafold)  
@@ -297,7 +414,7 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language
     Params: 11B
-    Training Data: 800 GB
+    Training Data: 800GB
     Training Cost: $1.5M
     Training petaFLOPs: 41M
     Architecture: En-De
@@ -311,9 +428,33 @@ A collection of AWESOME things about BIG AI models.
     Field: Language
     Params: 8.3B
     Training Data: 174 GB
+    Training petaFLOPs: 9.1M
+    Architecture: De
+    Obective: LTR
+    ```
+
+- **Megatron-BERT** [[Nvidia]]() Sept 2019 [</>](https://github.com/NVIDIA/Megatron-LM)  
+    Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
+
+    ```yaml
+    Field: Language
+    Params: 3.9B
+    Training Data: 174 GB
     Training petaFLOPs: 57M
-    Architecture: En-De; En
-    Obective: LTR; MLM
+    Architecture: En
+    Obective: MLM
+    ```
+
+- **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [</>](https://github.com/facebookresearch/fairseq)  
+    RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Preprint]](https://arxiv.org/abs/1907.11692)  
+
+    ```yaml
+    Field: Language
+    Params: 354M
+    Training Data: 160GB
+    Training Time: 1024 V100 GPU days
+    Architecture: En
+    Objective: MLM
     ```
 
 - **XLNet** [[Google]]() June 2019 [</>](https://github.com/zihangdai/xlnet)  
@@ -327,18 +468,6 @@ A collection of AWESOME things about BIG AI models.
     Training Cost: $245k
     Architecture: En
     Objective: PLM
-    ```
-
-- **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [</>](https://github.com/facebookresearch/fairseq)  
-    RoBERTa: A Robustly Optimized BERT Pretraining Approach [[Preprint]](https://arxiv.org/abs/1907.11692)  
-
-    ```yaml
-    Field: Language
-    Params: 354M
-    Training Data: 160GB
-    Training Time: 1024 V100 GPU days
-    Architecture: En
-    Objective: MLM
     ```
 
 - **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb 2019 [</>](https://github.com/openai/gpt-2)  
@@ -390,6 +519,8 @@ A collection of AWESOME things about BIG AI models.
     Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training [[Preprint]](https://arxiv.org/abs/2110.14883)
 - **OneFlow*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [</>](https://github.com/OneFlow-Inc/oneflow)  
     OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
+- **GShard** [[Google]](https://arxiv.org/abs/2006.16668) June 2020  
+    GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding [[Preprint]](https://arxiv.org/abs/2006.16668)
 - **MindSpore*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [</>](https://github.com/mindspore-ai/mindspore)
 - **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [</>](https://github.com/microsoft/DeepSpeed)  
     ZeRO: Memory Optimizations Toward Training Trillion Parameter Models [[SC'20]](https://arxiv.org/abs/1910.02054)
@@ -406,16 +537,18 @@ A collection of AWESOME things about BIG AI models.
 
 ## Others
 
+- CoCa
+- SLAM
+- 紫东太初大模型
 - WuDao
 - BriVL
 - DALL·E
 - CLIP
 - CogView
+- ALIGN
 - Imagen
 - DALL·E 2
-- Gato
 - WuDao 2.0
-- 快手1.9万亿参数推荐精排模型
 - 阿里达摩院M6
 - **BaGuaLu** [BAAI, Alibaba] Apr 2022  
     BaGuaLu: targeting brain scale pretrained models with over 37 million cores [PPoPP'22](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
