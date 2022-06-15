@@ -23,7 +23,7 @@ A collection of AWESOME things about BIG AI models.
     Field: Language
     Params: 550B
     Training Data: (780B tokens)
-    Training Cost: ~$10M
+    Training Cost: $10M
     Training petaFLOPs: 2.5B
     Architecture: De
     ```
@@ -49,14 +49,34 @@ A collection of AWESOME things about BIG AI models.
     Objective: LTR
     ```
 
+- **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar 2022  
+    EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training [[Preprint]](https://arxiv.org/abs/2203.09313)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 2.8B
+    Training Data: 180G (1.4B samples, Chinese)
+    ```
+
 - **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar 2022  
     Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
 
     ```yaml
     Field: Language
     Params: 70B
-    Training Data: ~5.2TB
+    Training Data: 5.2TB
     Training petaFLOPs: 580M
+    Architecture: De
+    ```
+
+- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan 2022
+    LaMDA: Language Models for Dialog Applications [[Preprint]](https://arxiv.org/abs/2201.08239)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 137B
+    Training Data: (1.56T words)
+    Training petaFLOPs: 360M
     Architecture: De
     ```
 
@@ -75,7 +95,7 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language
     Params: 280B
-    Training Data: ~1.3TB (300B tokens)
+    Training Data: 1.3TB (300B tokens)
     Training petaFLOPs: 630M
     Architecture: De
     ```
@@ -86,7 +106,7 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language
     Params: 245B
-    Training Data: ~5TB (180B tokens, Chinese)
+    Training Data: 5TB (180B tokens, Chinese)
     Training petaFLOPs: 410M
     Architecture: De, MoE
     ```
@@ -103,7 +123,16 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR
     ```
 
-- Jurassic-1 [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug 2021  
+- **Plato-XL** [[Baidu]](http://research.baidu.com/Blog/index-view?id=163) Sept 2021  
+    PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation [[Preprint]](https://arxiv.org/abs/2109.09519)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 11B
+    Training Data: (1.2B samples)
+    ```
+
+- **Jurassic-1** [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug 2021  
     Jurassic-1: Technical Details and Evaluation [[Preprint]](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
 
     ```yaml
@@ -113,7 +142,7 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
-- **ERNIE 3.0** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie) Jul 2021  
+- **ERNIE 3.0** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie) July 2021  
     ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation [[Preprint]](https://arxiv.org/abs/2107.02137)
 
     ```yaml
@@ -177,6 +206,24 @@ A collection of AWESOME things about BIG AI models.
     Architecture: En-De
     ```
 
+- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr 2020 [</>](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
+    Recipes for building an open-domain chatbot [[Preprint]](https://arxiv.org/abs/2004.13637)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 9.4B
+    ```
+
+- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan 2020  
+    Towards a Human-like Open-Domain Chatbot [[Preprint]](https://arxiv.org/abs/2001.09977)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 2.6B
+    Training Data: 341GB (40B words)
+    Training petaFLOPs: 110M
+    ```
+
 - **Switch Transformer**  [[Google]]() Jan 2021  
     Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
@@ -193,9 +240,9 @@ A collection of AWESOME things about BIG AI models.
     CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
 
     ```yaml
-    Field: Language (Chinese)
+    Field: Language
     Params: 2.6B
-    Training Data: ~100G (Chinese)
+    Training Data: 100G (Chinese)
     Training petaFLOPs: 1.8M
     Architecture: De
     Objective: LTR
@@ -207,7 +254,7 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language  
     Params: 175B  
-    Training Data: 45TB (~680B Tokens)
+    Training Data: 45TB (680B Tokens)
     Training Time: 95 A100 GPU years (355 V100 GPU years)
     Training Cost: $4.6M
     Training petaFLOPs: 310M
@@ -225,13 +272,32 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR
     ```
 
+- **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) [</>](https://github.com/deepmind/alphafold)  
+    Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
+
+    ```yaml
+    Field: Biology
+    Params: 21B
+    Training petaFLOPs: 100k
+    ```
+
+- **DialoGPT** [[Microsoft]](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) Nov 2019 [</>](https://github.com/microsoft/DialoGPT)  
+    DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation [[ACL'20]](https://arxiv.org/abs/1911.00536)
+
+    ```yaml
+    Field: Language (Dialogue)
+    Params: 762M
+    Training Data: (147M conversation)
+    Architecture: De
+    ```
+
 - **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct 2019 [</>](https://github.com/google-research/text-to-text-transfer-transformer)  
     Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [JMLR'19](https://arxiv.org/abs/1910.10683)
 
     ```yaml
     Field: Language
     Params: 11B
-    Training Data: ~800 GB
+    Training Data: 800 GB
     Training Cost: $1.5M
     Training petaFLOPs: 41M
     Architecture: En-De
@@ -281,8 +347,8 @@ A collection of AWESOME things about BIG AI models.
     ```yaml
     Field: Language  
     Params: 1.5B
-    Training Data: 40GB (~8M web pages)
-    Training Cost: ~$43k
+    Training Data: 40GB (8M web pages)
+    Training Cost: $43k
     Training petaFLOPs: 1.5M
     Architecture: De
     Objective: LTR
@@ -296,7 +362,7 @@ A collection of AWESOME things about BIG AI models.
     Params: 330M
     Training Data: 16GB (3.3B words)
     Training Time: 64 TPUv2 days (280 V100 GPU days)
-    Training Cost: ~$7k
+    Training Cost: $7k
     Training petaFLOPs: 290k
     Architecture: En
     Objective: MLM, NSP
@@ -354,23 +420,11 @@ A collection of AWESOME things about BIG AI models.
 - **BaGuaLu** [BAAI, Alibaba] Apr 2022  
     BaGuaLu: targeting brain scale pretrained models with over 37 million cores [PPoPP'22](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
 
-    ```yaml
-    Field:
-    Params: 174T
-    ```
-- LaMDA
-- Meena
-- Plato
-- Blender
-- EVA 2.0
-- EVA [BAAI] Aug 2021 [</>](https://github.com/BAAI-WuDao/EVA)  
-    EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training [[Preprint]](https://arxiv.org/abs/2108.01547)
-- DialoGPT
-
 ## Keys Explanations
 
 - Company tags: the related company name. Other institudes may also involve in the job.
 - Params: number of parameters of the largest model
+- Training data size, training cost and training petaFLOPs may have some uncertainty.
 - Training cost:
   - TPUv2 hour: $4.5
   - TPUv3 hour: $8
