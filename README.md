@@ -25,6 +25,17 @@ A collection of AWESOME things about BIG AI models.
     Training Data: (780B tokens)
     Training Cost: ~$10M
     Training petaFLOPs: 2.5B
+    Architecture: De
+    ```
+
+- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) June 2020 [</>](https://github.com/EleutherAI/gpt-neox)  
+    GPT-NeoX-20B: An Open-Source Autoregressive Language Model [[Preprint]](https://arxiv.org/abs/2204.06745)
+
+    ```yaml
+    Field: Language
+    Params: 20B
+    Training petaFLOPs: 93B
+    Architecture: De
     ```
 
 - **OPT** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [</>](https://github.com/facebookresearch/metaseq)  
@@ -47,6 +58,15 @@ A collection of AWESOME things about BIG AI models.
     Training Data: ~5.2TB
     Training petaFLOPs: 580M
     Architecture: De
+    ```
+
+- **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec 2021  
+    GLaM: Efficient Scaling of Language Models with Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2112.06905)
+
+    ```yaml
+    Field: Language
+    Params: 1.2T
+    Architecture: MoE
     ```
 
 - **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec 2021  
@@ -83,9 +103,26 @@ A collection of AWESOME things about BIG AI models.
     Obective: LTR
     ```
 
-- Jurassic-1
+- Jurassic-1 [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug 2021  
+    Jurassic-1: Technical Details and Evaluation [[Preprint]](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
 
-- ERNIE 3.0
+    ```yaml
+    Field: Language
+    Params: 178B
+    Training petaFLOPs: 370M
+    Architecture: De
+    ```
+
+- **ERNIE 3.0** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie) Jul 2021  
+    ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation [[Preprint]](https://arxiv.org/abs/2107.02137)
+
+    ```yaml
+    Field: Language
+    Params: (375B tokens, with knowledge graph)
+    Training Data: 4TB
+    Architecture: En
+    Objective: MLM
+    ```
 
 - **CPM-2** [[BAAI]]() June 2021 [</>](https://github.com/TsinghuaAI/CPM)  
     CPM-2: Large-scale Cost-effective Pre-trained Language Models [[Preprint]](https://arxiv.org/abs/2106.10715)
@@ -98,6 +135,26 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
+- **HyperClova** [[Naver]](https://www.navercorp.com/promotion/pressReleasesView/30546) May 2021  
+    What Changes Can Large-scale Language Models Bring? Intensive Study on HyperCLOVA: Billions-scale Korean Generative Pretrained Transformers [[Preprint]](https://arxiv.org/abs/2109.04650v1)
+
+    ```yaml
+    Field: Language
+    Params: 82B
+    Training Data: (562B tokens, Korean)
+    Training petaFLOPs: 63B
+    ```
+
+- **ByT5** [[Google]]() May 2021 [</>](https://github.com/google-research/byt5)  
+    ByT5: Towards a token-free future with pre-trained byte-to-byte models [[TACL'22]](https://arxiv.org/abs/2105.13626)
+
+    ```yaml
+    Field: Language
+    Params: 13B
+    Training Data: (101 languages)
+    Architecture: En-De
+    ```
+
 - **PanGu-α** [[Huawei]]() Apr 2021  
     PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation [[Preprint]](https://arxiv.org/abs/2104.12369)
 
@@ -108,6 +165,16 @@ A collection of AWESOME things about BIG AI models.
     Training petaFLOPs: 58M
     Architecture: De
     Objective: LTR
+    ```
+
+- **mT5** [[Google]]() Mar 2021 [</>](https://github.com/google-research/multilingual-t5)  
+    mT5: A massively multilingual pre-trained text-to-text transformer [[Preprint]](https://arxiv.org/abs/2010.11934)
+
+    ```yaml
+    Field: Language
+    Params: 13B
+    Training Data: (101 languages)
+    Architecture: En-De
     ```
 
 - **Switch Transformer**  [[Google]]() Jan 2021  
@@ -273,9 +340,6 @@ A collection of AWESOME things about BIG AI models.
 
 ## Others
 
-- PaLM
-- YUAN 1.0
-- ERNIE 3.0
 - WuDao
 - BriVL
 - DALL·E
@@ -287,10 +351,6 @@ A collection of AWESOME things about BIG AI models.
 - WuDao 2.0
 - 快手1.9万亿参数推荐精排模型
 - 阿里达摩院M6
-- Jurassic-1 AI21 178B
-- Wenxin
-- Gopher
-- GLaM
 - **BaGuaLu** [BAAI, Alibaba] Apr 2022  
     BaGuaLu: targeting brain scale pretrained models with over 37 million cores [PPoPP'22](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
 
@@ -298,9 +358,14 @@ A collection of AWESOME things about BIG AI models.
     Field:
     Params: 174T
     ```
-
+- LaMDA
+- Meena
+- Plato
+- Blender
+- EVA 2.0
 - EVA [BAAI] Aug 2021 [</>](https://github.com/BAAI-WuDao/EVA)  
     EVA: An Open-Domain Chinese Dialogue System with Large-Scale Generative Pre-Training [[Preprint]](https://arxiv.org/abs/2108.01547)
+- DialoGPT
 
 ## Keys Explanations
 
