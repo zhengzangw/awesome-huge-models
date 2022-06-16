@@ -14,6 +14,114 @@ A collection of AWESOME things about BIG AI models.
     <img src="img/ai-training-computation.png" alt="Big models in NLP" width="460"/>
 </p >
 
+## Multi-modality Models
+
+- **Imagen** [[Google]](https://imagen.research.google/) May 2022  
+    Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding [[Preprint]](https://arxiv.org/abs/2205.11487)
+
+    ```yaml
+    Understand: Language
+    Generation: Image
+    Text Encoder: T5
+    Image Decoder: Diffusion, Upsampler
+    ```
+
+- **DALL·E 2** [[OpenAI]](https://openai.com/dall-e-2/) Apr 2022  
+    Hierarchical Text-Conditional Image Generation with CLIP Latents [[Preprint]](https://cdn.openai.com/papers/dall-e-2.pdf)
+
+    ```yaml
+    Understand: Language
+    Generation: Image
+    Text Encoder: GPT2 (CLIP)
+    Image Encoder: ViT (CLIP)
+    Image Decoder: Diffusion, Upsampler
+    ```
+
+- **BaGuaLu** [[BAAI, Alibaba]]() Apr 2022  
+    BaGuaLu: targeting brain scale pretrained models with over 37 million cores [[PPoPP'22]](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
+
+    ```yaml
+    Understand: Image, Language
+    Params: 174T
+    Architecture: M6
+    ```
+
+- **NUWA** [[Microsoft]]() Nov 2021 [</>](https://github.com/microsoft/NUWA)  
+    NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion [[Preprint]](https://arxiv.org/abs/2111.12417)
+
+    ```yaml
+    Understand: Image, Language
+    Generatioon: Image, Video
+    Params: 870M
+    ```
+
+- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept 2021
+
+    ```yaml
+    Understand: Image, Video, Language, Speech
+    Params: 100B
+    ```
+
+- **CogView** [[BAAI, Alibaba]](https://wudao.aminer.cn/CogView/index.html) May 2021 [</>](https://github.com/THUDM/CogView)  
+    CogView: Mastering Text-to-Image Generation via Transformers [[NeurIPS'21]](https://arxiv.org/abs/2105.13290)
+
+    ```yaml
+    Understand: Language
+    Generation: Image
+    Params: 4B
+    Training Data: (30M text-image pairs)
+    Training petaFLOPs: 27M
+    Image Encoder: VAE
+    Text Encoder & Image Decoder: GPT2
+    ```
+
+- **M6** [[Alibaba]](https://m6.aliyun.com/#/) Mar 2021  
+    M6: A Chinese Multimodal Pretrainer [[Preprint]](https://arxiv.org/abs/2103.00823)
+
+    ```yaml
+    Understand: Image, Language
+    Params: 10T
+    Training Data: 300G Texts + 2TB Images
+    Training petaFLOPs: 5.5M
+    Fusion: Single-stream
+    Objective: MLM, IC
+    ```
+
+- **DALL·E** [[OpenAI]](https://openai.com/blog/dall-e/) Feb 2021  
+    Zero-Shot Text-to-Image Generation [[ICML'21]](https://arxiv.org/abs/2102.12092)
+
+    ```yaml
+    Understand: Language
+    Generation: Image
+    Params: 12B
+    Training Data: (250M text-images pairs)
+    Training petaFLOPs: 47M
+    Image Encoder: dVAE
+    Text Encoder & Image Decoder: GPT2
+    ```
+
+- **CLIP** [[OpenAI]](https://openai.com/blog/clip/) Jan 2021  
+    Learning Transferable Visual Models From Natural Language Supervision [[ICML'22]](https://arxiv.org/abs/2103.00020)
+
+    ```yaml
+    Understand: Image, Language
+    Training Data: 400M text-image pairs
+    Training petaFLOPs: 11M
+    Image Encoder: ViT
+    Text Encoder: GPT-2
+    Fusion: Dual Encoder
+    Objective: CMCL
+    ```
+
+- **WuDao-WenLan** [[BAAI]]() Mar 2021  
+
+    ```yaml
+    Understand: Image, Langugae
+    Params: 1B
+    Fusion: Dual-stream
+    Objective: MLM, VLM
+    ```
+
 ## Models
 
 - **UL2** [[Google]]() May 2022  
@@ -68,6 +176,17 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
+- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar 2022  
+    Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
+
+    ```yaml
+    Field: Language
+    Params: 70B
+    Training Data: 5.2TB
+    Training petaFLOPs: 580M
+    Architecture: De
+    ```
+
 - **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar 2022  
     EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training [[Preprint]](https://arxiv.org/abs/2203.09313)
 
@@ -77,14 +196,13 @@ A collection of AWESOME things about BIG AI models.
     Training Data: 180G (1.4B samples, Chinese)
     ```
 
-- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar 2022  
-    Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
+- **AlphaCode** [[DeepMind]](Competition-Level Code Generation with AlphaCode)
+    Competition-Level Code Generation with AlphaCode [[Preprint]](https://arxiv.org/abs/2203.07814)
 
     ```yaml
-    Field: Language
-    Params: 70B
-    Training Data: 5.2TB
-    Training petaFLOPs: 580M
+    Field: Code Generation
+    Params: 41B
+    Training Data: (967B tokens)
     Architecture: De
     ```
 
@@ -119,6 +237,16 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
+- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec 2022  
+    ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
+
+    ```yaml
+    Field: Image Generation (text to image)
+    Params: 10B
+    Training Data: (145M text-image pairs)
+    Architecture: Transformer, dVAE + De
+    ```
+
 - **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec 2021  
     GLaM: Efficient Scaling of Language Models with Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2112.06905)
 
@@ -139,7 +267,7 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
-- **SwinV2-G** [[]] Nov 2021 [</>](https://github.com/microsoft/Swin-Transformer)  
+- **SwinV2-G** [[Google]]() Nov 2021 [</>](https://github.com/microsoft/Swin-Transformer)  
     Swin Transformer V2: Scaling Up Capacity and Resolution [[CVPR'22]](https://arxiv.org/abs/2111.09883v2)
 
     ```yaml
@@ -191,15 +319,34 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     ```
 
+- **Codex** [[DeepMind]](https://openai.com/blog/openai-codex/) July 2021  
+    Evaluating Large Language Models Trained on Code [[Preprint]](https://arxiv.org/abs/2107.03374)
+
+    ```yaml
+    Field: Code Generation
+    Params: 12B
+    Training Data: 159GB
+    Architecture: De
+    ```
+
 - **ERNIE 3.0** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie) July 2021  
     ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation [[Preprint]](https://arxiv.org/abs/2107.02137)
 
     ```yaml
     Field: Language
-    Params: (375B tokens, with knowledge graph)
-    Training Data: 4TB
+    Params: 10B
+    Training Data: 4TB (375B tokens, with knowledge graph)
     Architecture: En
     Objective: MLM
+    ```
+
+- **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) July 2021 [</>](https://github.com/deepmind/alphafold)  
+    Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
+
+    ```yaml
+    Field: Biology
+    Params: 21B
+    Training petaFLOPs: 100k
     ```
 
 - **ViT-G/14** [[Google]]() June 2021  
@@ -300,6 +447,13 @@ A collection of AWESOME things about BIG AI models.
     Architecture: En-De
     ```
 
+- **WuDao-WenHui** [[BAAI]]() Mar 2021  
+
+    ```yaml
+    Field: Langugae
+    Params: 11.3B
+    ```
+
 - **Switch Transformer**  [[Google]]() Jan 2021 [</>](https://github.com/google-research/t5x)  
     Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
@@ -347,6 +501,17 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM
     ```
 
+- **iGPT-XL** [[OpenAI]](https://openai.com/blog/image-gpt/) June 2020 [</>](https://github.com/openai/image-gpt)  
+    Generative Pretraining From Pixels [[ICML'20]](https://proceedings.mlr.press/v119/chen20s.html)
+
+    ```yaml
+    Field: Image Generation
+    Params: 6.8B
+    Training Data: (1M images)
+    Training petaFLOPs: 33M
+    Architecture: Transformer, De
+    ```
+
 - **GPT-3** [[OpenAI]](https://openai.com/api/) May 2020  
     Language Models are Few-Shot Learners [[NeurIPS'20]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)  
 
@@ -387,15 +552,6 @@ A collection of AWESOME things about BIG AI models.
     Params: 2.6B
     Training Data: 341GB (40B words)
     Training petaFLOPs: 110M
-    ```
-
-- **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) [</>](https://github.com/deepmind/alphafold)  
-    Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
-
-    ```yaml
-    Field: Biology
-    Params: 21B
-    Training petaFLOPs: 100k
     ```
 
 - **DialoGPT** [[Microsoft]](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) Nov 2019 [</>](https://github.com/microsoft/DialoGPT)  
@@ -497,6 +653,18 @@ A collection of AWESOME things about BIG AI models.
     Objective: MLM, NSP
     ```
 
+- **BigGAN-deep** [[DeepMind]]() Sept 2018 [</>](https://github.com/ajbrock/BigGAN-PyTorch)  
+    Large Scale GAN Training for High Fidelity Natural Image Synthesis [[ICLR'19]](https://arxiv.org/abs/1809.11096)
+
+    ```yaml
+    Field: Image Generation
+    Params: 158M
+    Training Data: (300M images)
+    Training petaFLOPs: 3M
+    Architecture: Convolution, GAN
+    Resolution: 512x512
+    ```
+
 - **GPT** [[OpenAI]](https://openai.com/blog/language-unsupervised/) June 2018  
     Improving Language Understanding by Generative Pre-Training [[Preprint]](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
 
@@ -508,6 +676,30 @@ A collection of AWESOME things about BIG AI models.
     Architecture: De
     Objective: LTR
     ```
+
+## Recommendation Training Framework
+
+- **HET** [[Tencent]]() Dec 2021  
+    HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework [[VLDB'22]](https://arxiv.org/abs/2112.07221)
+- **Persia** [[Kuaishou]]() Nov 2021  
+    Persia: An Open, Hybrid System Scaling Deep Learning-based Recommenders up to 100 Trillion Parameters [[Preprint]](https://arxiv.org/abs/2111.05897)  
+    Embeddings Params: 100T
+- **ZionEX** [[Facebook]]() Apr 2021  
+    Software-Hardware Co-design for Fast and Scalable Training of Deep Learning Recommendation Models [[ISCA'21]](https://arxiv.org/abs/2104.05158)  
+    Embeddings Params: 10T
+- **ScaleFreeCTR** [[Huawei]]() Apr 2021  
+    ScaleFreeCTR: MixCache-based Distributed Training System for CTR Models with Huge Embedding Table [[SIGIR'21]](https://arxiv.org/abs/2104.08542)
+- **Kraken** [[Kuaishou]]() Nov 2020  
+    Kraken: Memory-Efficient Continual Learning for Large-Scale Real-Time Recommendations [[SC'20]](http://storage.cs.tsinghua.edu.cn/papers/sc20-kraken.pdf/)
+- **TensorNet** [[Qihoo360]]() Sept 2020 [</>](https://github.com/Qihoo360/tensornet)
+- **HierPS** [[Baidu]]() Mar 2020  
+    Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems [[MLSys'20]](https://arxiv.org/abs/2003.05622)
+- **AIBox** [[Baidu]]() Oct 2019  
+    AIBox: CTR Prediction Model Training on a Single Node [[CIKM'20]](https://dl.acm.org/doi/pdf/10.1145/3357384.3358045)  
+    Embeddings Params: 0.1T
+- **XDL** [[Alibaba]]() Aug 2019  
+    XDL: an industrial deep learning framework for high-dimensional sparse data [[DLP-KDD'21]](https://dlp-kdd.github.io/dlp-kdd2019/assets/pdf/a6-jiang.pdf)  
+    Embeddings Params: 0.01T
 
 ## Distributed Training Framework
 
@@ -535,24 +727,6 @@ A collection of AWESOME things about BIG AI models.
 - **Tensorflow*** [[Google]](https://www.tensorflow.org/) Nov 2015 [</>](https://github.com/tensorflow/tensorflow)  
     TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
-## Others
-
-- CoCa
-- SLAM
-- 紫东太初大模型
-- WuDao
-- BriVL
-- DALL·E
-- CLIP
-- CogView
-- ALIGN
-- Imagen
-- DALL·E 2
-- WuDao 2.0
-- 阿里达摩院M6
-- **BaGuaLu** [BAAI, Alibaba] Apr 2022  
-    BaGuaLu: targeting brain scale pretrained models with over 37 million cores [PPoPP'22](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
-
 ## Keys Explanations
 
 - Company tags: the related company name. Other institudes may also involve in the job.
@@ -574,4 +748,7 @@ A collection of AWESOME things about BIG AI models.
   - LTR: Left-To-Right Language Modeling
   - NSP: Next Sentence Prediction
   - PLM: Permuted Language Modeling
+  - IC: Image Captioning
+  - VLM: Vision Languauge Matching
+  - CMCL: Cross-Modal Contrastive Learning
 - 1 petaFLOPs = 1e15 FLOPs
