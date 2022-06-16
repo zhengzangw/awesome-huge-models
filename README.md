@@ -1,8 +1,19 @@
+<!-- omit in toc -->
 # awesome-big-models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A collection of AWESOME things about BIG AI models.
+
+<!-- omit in toc -->
+## Contents
+  
+- [Survey](#survey)
+- [Multi-modality Models](#multi-modality-models)
+- [Models](#models)
+- [Recommendation Training Framework](#recommendation-training-framework)
+- [Distributed Training Framework](#distributed-training-framework)
+- [Keys Explanations](#keys-explanations)
 
 ## Survey
 
