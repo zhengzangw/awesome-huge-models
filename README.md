@@ -207,7 +207,7 @@ A collection of AWESOME things about BIG AI models.
     Training Data: 180G (1.4B samples, Chinese)
     ```
 
-- **AlphaCode** [[DeepMind]](Competition-Level Code Generation with AlphaCode)
+- **AlphaCode** [[DeepMind]](https://www.deepmind.com/blog/competitive-programming-with-alphacode) Mar 2022  
     Competition-Level Code Generation with AlphaCode [[Preprint]](https://arxiv.org/abs/2203.07814)
 
     ```yaml
@@ -373,6 +373,7 @@ A collection of AWESOME things about BIG AI models.
     ```
 
 - **CoAtNet** [[Google]](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html) June 2021 [</>](https://github.com/chinhsuanwu/coatnet-pytorch)
+    CoAtNet: Marrying Convolution and Attention for All Data Sizes [[NeurIPS'21]](https://arxiv.org/abs/2106.04803)
 
     ```yaml
     Field: Vision
