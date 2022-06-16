@@ -372,7 +372,7 @@ A collection of AWESOME things about BIG AI models.
     Objective: Supervised
     ```
 
-- **CoAtNet** [[Google]](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html) June 2021 [</>](https://github.com/chinhsuanwu/coatnet-pytorch)
+- **CoAtNet** [[Google]](https://ai.googleblog.com/2021/09/toward-fast-and-accurate-neural.html) June 2021 [</>](https://github.com/chinhsuanwu/coatnet-pytorch)  
     CoAtNet: Marrying Convolution and Attention for All Data Sizes [[NeurIPS'21]](https://arxiv.org/abs/2106.04803)
 
     ```yaml
@@ -503,7 +503,7 @@ A collection of AWESOME things about BIG AI models.
     ```
 
 - **wav2vec 2.0** [[Meta]](https://arxiv.org/abs/2006.11477) Oct 2020 [</>](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
-    wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [NeurIPS'20](https://arxiv.org/abs/2006.11477)
+    wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [[NeurIPS'20]](https://arxiv.org/abs/2006.11477)
 
     ```yaml
     Field: Speech
@@ -577,7 +577,7 @@ A collection of AWESOME things about BIG AI models.
     ```
 
 - **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct 2019 [</>](https://github.com/google-research/text-to-text-transfer-transformer)  
-    Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [JMLR'19](https://arxiv.org/abs/1910.10683)
+    Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [[JMLR'19]](https://arxiv.org/abs/1910.10683)
 
     ```yaml
     Field: Language
@@ -652,7 +652,7 @@ A collection of AWESOME things about BIG AI models.
     ```
 
 - **BERT** [[Google]]() Oct 2018 [</>](https://github.com/google-research/bert)  
-    BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/pdf/1810.04805.pdf)
+    BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/abs/1810.04805)
 
     ```yaml
     Field: Language
