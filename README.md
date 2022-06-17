@@ -20,6 +20,7 @@ A collection of AWESOME things about BIG AI models.
 - [Compute Trends Across Three Eras of Machine Learning](https://arxiv.org/abs/2202.05924) [[chart](https://ourworldindata.org/grapher/ai-training-computation)]
 - [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101)
 - [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
+- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139)
 
 <p align="center">
     <img src="img/ai-training-computation.png" alt="Big models in NLP" width="460"/>
