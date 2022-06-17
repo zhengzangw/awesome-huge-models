@@ -5,6 +5,8 @@
 
 A collection of AWESOME things about BIG AI models.
 
+There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
+
 <!-- omit in toc -->
 ## Contents
   
@@ -745,18 +747,18 @@ A collection of AWESOME things about BIG AI models.
 - Company tags: the related company name. Other institudes may also involve in the job.
 - Params: number of parameters of the largest model
 - Training data size, training cost and training petaFLOPs may have some uncertainty.
-- Training cost:
+- Training cost
   - TPUv2 hour: $4.5
   - TPUv3 hour: $8
   - V100 GPU hour: $0.55 (2022)
   - A100 GPU hoor: $1.10 (2022)
-- Architecture:
-  - If not mentioned, models are built with transformers.
+- Architecture
   - En: Encoder-based Language Model
   - De: Decoder-based Language Model
   - En-De=Encoder-Decoder-based Language Model
+  - The above three architectures are powered with transformers.
   - MoE: Mixture of Experts
-- Objective
+- Objective (See explanation in section 6–8 of [this paper](https://arxiv.org/pdf/2203.14101v3.pdf))
   - MLM: Masked Language Modeling
   - LTR: Left-To-Right Language Modeling
   - NSP: Next Sentence Prediction
@@ -764,4 +766,5 @@ A collection of AWESOME things about BIG AI models.
   - IC: Image Captioning
   - VLM: Vision Languauge Matching
   - CMCL: Cross-Modal Contrastive Learning
-- 1 petaFLOPs = 1e15 FLOPs
+- FLOPs: number of FLOating-Point operations [[explanation]](https://openai.com/blog/ai-and-compute/)
+  - 1 petaFLOPs = 1e15 FLOPs
