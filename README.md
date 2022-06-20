@@ -130,7 +130,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 - **WuDao-WenLan** [[BAAI]]() Mar 2021  
 
     ```yaml
-    Understand: Image, Langugae
+    Understand: Image, Language
     Params: 1B
     Fusion: Dual-stream
     Objective: MLM, VLM
@@ -465,7 +465,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 - **WuDao-WenHui** [[BAAI]]() Mar 2021  
 
     ```yaml
-    Field: Langugae
+    Field: Language
     Params: 11.3B
     ```
 
