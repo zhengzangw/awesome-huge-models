@@ -1,9 +1,9 @@
 <!-- omit in toc -->
-# awesome-big-models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# awesome-huge-models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-A collection of AWESOME things about BIG AI models.
+A collection of AWESOME things about HUGE AI models.
 
 There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
 
