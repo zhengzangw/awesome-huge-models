@@ -20,6 +20,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ## Survey
 
+- [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining)
 - [Compute Trends Across Three Eras of Machine Learning](https://arxiv.org/abs/2202.05924) [[chart](https://ourworldindata.org/grapher/ai-training-computation)]
 - [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101)
 - [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
@@ -568,7 +569,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     ```
 
 - **Flamingo** [[DeepMind]]() Apr 2022 [close]  
-    Flamingo: a Visual Language Model for Few-Shot Learning
+    Flamingo: a Visual Language Model for Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2204.14198)
 
     ```yaml
     Field: Vision-Language
