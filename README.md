@@ -562,18 +562,24 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding [[Preprint]](https://arxiv.org/abs/2205.11487)
 
     ```yaml
-    Understand: Language
-    Generation: Image
+    Field: Image Generation (text to image)
     Text Encoder: T5
     Image Decoder: Diffusion, Upsampler
+    ```
+
+- **Flamingo** [[DeepMind]]() Apr 2022 [close]  
+    Flamingo: a Visual Language Model for Few-Shot Learning
+
+    ```yaml
+    Field: Vision-Language
+    Params: 80B
     ```
 
 - **DALL·E 2** [[OpenAI]](https://openai.com/dall-e-2/) Apr 2022  
     Hierarchical Text-Conditional Image Generation with CLIP Latents [[Preprint]](https://cdn.openai.com/papers/dall-e-2.pdf)
 
     ```yaml
-    Understand: Language
-    Generation: Image
+    Field: Image Generation (text to image)
     Text Encoder: GPT2 (CLIP)
     Image Encoder: ViT (CLIP)
     Image Decoder: Diffusion, Upsampler
@@ -583,7 +589,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     BaGuaLu: targeting brain scale pretrained models with over 37 million cores [[PPoPP'22]](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
 
     ```yaml
-    Understand: Image, Language
+    Field: Vision-Language
     Params: 174T
     Architecture: M6
     ```
@@ -669,8 +675,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     CogView: Mastering Text-to-Image Generation via Transformers [[NeurIPS'21]](https://arxiv.org/abs/2105.13290)
 
     ```yaml
-    Understand: Language
-    Generation: Image
+    Field: Vision-Language
     Params: 4B
     Training Data: (30M text-image pairs)
     Training petaFLOPs: 27M
@@ -682,7 +687,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     M6: A Chinese Multimodal Pretrainer [[Preprint]](https://arxiv.org/abs/2103.00823)
 
     ```yaml
-    Understand: Image, Language
+    Field: Vision-Language
     Params: 10T
     Training Data: 300G Texts + 2TB Images
     Training petaFLOPs: 5.5M
@@ -694,8 +699,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Zero-Shot Text-to-Image Generation [[ICML'21]](https://arxiv.org/abs/2102.12092)
 
     ```yaml
-    Understand: Language
-    Generation: Image
+    Field: Image Generation (text to image)
     Params: 12B
     Training Data: (250M text-images pairs)
     Training petaFLOPs: 47M
@@ -766,7 +770,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 - **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept 2021
 
     ```yaml
-    Understand: Image, Video, Language, Speech
+    Field: Image, Video, Language, Speech
     Params: 100B
     ```
 
