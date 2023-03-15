@@ -32,6 +32,9 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ## Language Model
 
+- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar 2023 [close]
+    GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
+
 - **LLaMa** [[Meta]]() Feb 2023 [[open]](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/llama)  
     Open and Efficient Foundation Language Models [[Preprint]](https://arxiv.org/pdf/2302.13971v1.pdf)
 
