@@ -552,6 +552,16 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Architecture: Transformer
     Objective: Supervised
     ```
+    
+- **InternImage-G** [[Shanghai AI Lab]](https://github.com/OpenGVLab/InternImage) Nov 2022 [[open]](https://github.com/OpenGVLab/InternImage) 
+    InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions [[CVPR'23 Highlight]](https://arxiv.org/abs/2211.05778)
+
+    ```yaml
+    Field: Vision
+    Params: 3B
+    Architecture: CNN
+    Core Operator: Deformable Convolution v3
+    ```
 
 - **Stable Diffusion** [[Stability AI]]() Aug 2022 [[open]]()
 
