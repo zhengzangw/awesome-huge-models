@@ -283,7 +283,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Architecture: De
     ```
 
-- **Codex** [[DeepMind]](https://openai.com/blog/openai-codex/) July 2021 [close]  
+- **Codex** [[OpenAI]](https://openai.com/blog/openai-codex/) July 2021 [close]  
     Evaluating Large Language Models Trained on Code [[Preprint]](https://arxiv.org/abs/2107.03374)
 
     ```yaml
