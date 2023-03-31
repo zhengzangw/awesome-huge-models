@@ -27,13 +27,17 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 - [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139)
 
 <p align="center">
-    <img src="img/ai-training-computation.png" alt="Big models in NLP" width="460"/>
+    <img src="img/ai-training-computation-2.png" alt="Big models in NLP" width="460"/>
 </p >
 
 ## Language Model
 
 - **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar 2023 [close]
     GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
+
+    ```yaml
+    Field: Language-Vision
+    ```
 
 - **LLaMa** [[Meta]]() Feb 2023 [[open]](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/llama)  
     Open and Efficient Foundation Language Models [[Preprint]](https://arxiv.org/pdf/2302.13971v1.pdf)
@@ -42,6 +46,8 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Field: Language
     Params: 65B
     Training Data: 4TB (1.4T tokens)
+    Training Cost: 1,022,362 (2048 80G-A100 x 21 days)
+    Training Power Consumption: 449 MWh
     Achitecture: De
     ```
 
@@ -66,6 +72,9 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     ```yaml
     Field: Language
     Params: 176B
+    Training Data: 174GB
+    Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
+    Training Power Consumption: 475 MWh
     Architecture: De
     ```
 
@@ -93,7 +102,9 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     ```yaml
     Field: Language
     Params: 175B
-    Training Data: 800GB
+    Training Data: 800GB (180B tokens)
+    Training Cost: 809,472 A100 hours =  992 80G-A100 x 34 days
+    Training Power Consumption: 356 MWh
     Architecutre: De
     ```
 
@@ -104,7 +115,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Field: Language
     Params: 550B
     Training Data: 3TB (780B tokens)
-    Training Cost: $10M
+    Training Cost: $10M (16,809,984 TPUv4core-hours, 64 days)
     Training petaFLOPs: 2.5B
     Architecture: De
     ```
@@ -377,10 +388,10 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Language Models are Few-Shot Learners [[NeurIPS'20]](https://papers.nips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)  
 
     ```yaml
-    Field: Language  
+    Field: Language
     Params: 175B  
     Training Data: 45TB (680B Tokens)
-    Training Time: 95 A100 GPU years (355 V100 GPU years)
+    Training Time: 95 A100 GPU years (835584 A100 GPU hours, 355 V100 GPU years)
     Training Cost: $4.6M
     Training petaFLOPs: 310M
     Architecture: De
@@ -528,11 +539,16 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ## Vision Models
 
-- **Visual ChatGPT** [[Microsoft]]() Mar 2023  
-    Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models [[Preprint]](https://arxiv.org/abs/2303.04671)
+- **MAE->WSP-2B** [[Meta]]() Mar 2023 [close]  
+    The effectiveness of MAE pre-pretraining for billion-scale pretraining
 
-- **UniDiffuser** [[BAAI]]() Mar 2023  
-    One Transformer Fits All Distributions in Multi-Modal Diffusion at Scale [[Preprint]](https://ml.cs.tsinghua.edu.cn/diffusion/unidiffuser.pdf)
+    ```yaml
+    Field: Vision
+    Params: 6.5B
+    Training Data: (3B images)
+    Architecture: Transformer
+    Objective: MAE, Weakly-Supervised
+    ```
 
 - **OpenCLIP G/14** [[LAION]]() Mar 2023 [[open]](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K)
 
@@ -760,6 +776,14 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     ```
 
 ## Models (Others)
+
+- **PaLM-E** [[Google]]() March 2023
+    PaLM-E: An Embodied Multimodal Language Model [[Preprint]](https://palm-e.github.io/assets/palm-e.pdf)
+
+    ```yaml
+    Field: Reinforcement Learning
+    Params: 562B (540B LLM + 22B Vi)
+    ```
 
 - **Gato** [[DeepMind]](https://www.deepmind.com/publications/a-generalist-agent) May 2022  
     A Generalist Agent [[Preprint]](https://arxiv.org/abs/2205.06175)
