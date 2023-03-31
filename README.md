@@ -16,6 +16,9 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 - [Models (Others)](#models-others)
 - [Recommendation Training Framework](#recommendation-training-framework)
 - [Distributed Training Framework](#distributed-training-framework)
+  - [PyTorch Ecosystem](#pytorch-ecosystem)
+  - [XLA Ecosystem](#xla-ecosystem)
+  - [Others](#others)
 - [Keys Explanations](#keys-explanations)
 
 ## Survey
@@ -32,7 +35,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ## Language Model
 
-- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar 2023 [close]
+- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar 2023 [close]  
     GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
 
     ```yaml
@@ -75,6 +78,17 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Training Data: 174GB
     Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
     Training Power Consumption: 475 MWh
+    Architecture: De
+    ```
+
+- **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct 2022 [[open]](https://github.com/THUDM/GLM-130B)  
+    GLM-130B: An Open Bilingual Pre-trained Model
+
+    ```yaml
+    Field: Language
+    Params: 130B
+    Training Data: (400B tokens)
+    Training Cost: 516,096 A100 hours = 768 40G-A100 x 28 days
     Architecture: De
     ```
 
@@ -787,7 +801,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ## Models (Others)
 
-- **PaLM-E** [[Google]]() March 2023
+- **PaLM-E** [[Google]](https://palm-e.github.io/) March 2023 [close]  
     PaLM-E: An Embodied Multimodal Language Model [[Preprint]](https://palm-e.github.io/assets/palm-e.pdf)
 
     ```yaml
@@ -795,7 +809,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Params: 562B (540B LLM + 22B Vi)
     ```
 
-- **Gato** [[DeepMind]](https://www.deepmind.com/publications/a-generalist-agent) May 2022  
+- **Gato** [[DeepMind]](https://www.deepmind.com/publications/a-generalist-agent) May 2022 [close]  
     A Generalist Agent [[Preprint]](https://arxiv.org/abs/2205.06175)
 
     ```yaml
@@ -805,14 +819,14 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Objective: Supervised
     ```
 
-- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept 2021
+- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept 2021 [close]
 
     ```yaml
     Field: Image, Video, Language, Speech
     Params: 100B
     ```
 
-- **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) July 2021 [</>](https://github.com/deepmind/alphafold)  
+- **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) July 2021 [[open]](https://github.com/deepmind/alphafold)  
     Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
 
     ```yaml
@@ -821,7 +835,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Training petaFLOPs: 100k
     ```
 
-- **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [</>](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
+- **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
     HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units [[Preprint]](https://arxiv.org/abs/2106.07447)
 
     ```yaml
@@ -831,7 +845,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     Objective: MLM
     ```
 
-- **wav2vec 2.0** [[Meta]](https://arxiv.org/abs/2006.11477) Oct 2020 [</>](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
+- **wav2vec 2.0** [[Meta]](https://arxiv.org/abs/2006.11477) Oct 2020 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
     wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [[NeurIPS'20]](https://arxiv.org/abs/2006.11477)
 
     ```yaml
@@ -870,26 +884,34 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 > Deep Learning frameworks supportting distributed training are marked with *.
 
+### PyTorch Ecosystem
+
+### XLA Ecosystem
+
 - **Pathways** [[Google]](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/) Mar 2021  
     Pathways: Asynchronous Distributed Dataflow for ML [[Preprint]](https://arxiv.org/abs/2203.12533)
-- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov 2021 [</>](https://github.com/hpcaitech/ColossalAI)  
+- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov 2021 [[code]](https://github.com/hpcaitech/ColossalAI)  
     Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training [[Preprint]](https://arxiv.org/abs/2110.14883)
-- **OneFlow*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [</>](https://github.com/OneFlow-Inc/oneflow)  
+
+### Others
+
+- **FairScale** [[Meta]]() July 2020 [[code]](https://github.com/facebookresearch/fairscale)
+- **OneFlow*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [[code]](https://github.com/OneFlow-Inc/oneflow)  
     OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
 - **GShard** [[Google]](https://arxiv.org/abs/2006.16668) June 2020  
     GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding [[Preprint]](https://arxiv.org/abs/2006.16668)
-- **MindSpore*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [</>](https://github.com/mindspore-ai/mindspore)
-- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [</>](https://github.com/microsoft/DeepSpeed)  
+- **MindSpore*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [[code]](https://github.com/mindspore-ai/mindspore)
+- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [[code]](https://github.com/microsoft/DeepSpeed)  
     ZeRO: Memory Optimizations Toward Training Trillion Parameter Models [[SC'20]](https://arxiv.org/abs/1910.02054)
-- **Megatron** [[Nivida]]() Sept 2019 [</>](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron** [[Nivida]]() Sept 2019 [[code]](https://github.com/NVIDIA/Megatron-LM)  
     Megatron: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
-- **PaddlePaddle** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov 2018 [</>](https://github.com/PaddlePaddle/Paddle)  
+- **PaddlePaddle** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov 2018 [[code]](https://github.com/PaddlePaddle/Paddle)  
     End-to-end Adaptive Distributed Training on PaddlePaddle [[Preprint]](https://arxiv.org/abs/2112.02752)
-- **Horovod** [[Uber]](https://horovod.ai/) Feb 2018 [</>](https://github.com/horovod/horovod)  
+- **Horovod** [[Uber]](https://horovod.ai/) Feb 2018 [[code]](https://github.com/horovod/horovod)  
     Horovod: fast and easy distributed deep learning in TensorFlow [[Preprint]](https://arxiv.org/abs/1802.05799)
-- **PyTorch*** [[Meta]](https://pytorch.org/) Sept 2016 [</>](https://github.com/pytorch/pytorch)  
+- **PyTorch*** [[Meta]](https://pytorch.org/) Sept 2016 [[code]](https://github.com/pytorch/pytorch)  
     PyTorch: An Imperative Style, High-Performance Deep Learning Library [[NeurIPS'19]](http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf)
-- **Tensorflow*** [[Google]](https://www.tensorflow.org/) Nov 2015 [</>](https://github.com/tensorflow/tensorflow)  
+- **Tensorflow*** [[Google]](https://www.tensorflow.org/) Nov 2015 [[code]](https://github.com/tensorflow/tensorflow)  
     TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
 ## Keys Explanations
