@@ -45,14 +45,14 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ### Language Model
 
-- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar 2023 [close]  
+- **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar. 2023 [close]  
    GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
 
   ```yaml
   Field: Language-Vision
   ```
 
-- **LLaMa** [[Meta]]() Feb 2023 [[open]](https://github.com/facebookresearch/llama)  
+- **LLaMa** [[Meta]]() Feb. 2023 [[open]](https://github.com/facebookresearch/llama)  
    Open and Efficient Foundation Language Models [[Preprint]](https://arxiv.org/pdf/2302.13971v1.pdf)
 
   ```yaml
@@ -64,7 +64,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Achitecture: De
   ```
 
-- **AnthropicLM** [[Anthropic]]() Dec 2022 [close]  
+- **AnthropicLM** [[Anthropic]]() Dec. 2022 [close]  
    Constitutional AI: Harmlessness from AI Feedback
 
   ```yaml
@@ -72,14 +72,14 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 52B
   ```
 
-- **ChatGPT** [[OpenAI]]() Nov 2022 [close]
+- **ChatGPT** [[OpenAI]]() Nov. 2022 [close]
 
   ```yaml
   Field: Language (Dialog)
   Params: 175B
   ```
 
-- **BLOOM** [[BigScience]]() Nov 2022 [[open]](https://huggingface.co/bigscience/bloom)  
+- **BLOOM** [[BigScience]]() Nov. 2022 [[open]](https://huggingface.co/bigscience/bloom)  
    A 176B-Parameter Open-Access Multilingual Language Model [[Preprint]](https://arxiv.org/pdf/2211.05100.pdf)
 
   ```yaml
@@ -91,7 +91,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct 2022 [[open]](https://github.com/THUDM/GLM-130B)  
+- **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct. 2022 [[open]](https://github.com/THUDM/GLM-130B)  
    GLM-130B: An Open Bilingual Pre-trained Model [[ICLR'23]](https://arxiv.org/pdf/2210.02414.pdf)
 
   ```yaml
@@ -102,7 +102,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **Flan-T5, Flan-PaLM** [[Google]]() Oct 2022  
+- **Flan-T5, Flan-PaLM** [[Google]]() Oct. 2022  
    Scaling Instruction-Finetuned Language Models [[Preprint]](https://arxiv.org/pdf/2210.11416.pdf)
 
   ```yaml
@@ -132,7 +132,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecutre: De
   ```
 
-- **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr 2022 [close]  
+- **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr. 2022 [close]  
    PaLM: Scaling Language Modeling with Pathways [[Preprint]](https://arxiv.org/abs/2204.02311)
 
   ```yaml
@@ -144,7 +144,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) Apr 2022 [[open]](https://github.com/EleutherAI/gpt-neox)  
+- **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) Apr. 2022 [[open]](https://github.com/EleutherAI/gpt-neox)  
    GPT-NeoX-20B: An Open-Source Autoregressive Language Model [[Preprint]](https://arxiv.org/abs/2204.06745)
 
   ```yaml
@@ -154,7 +154,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **InstructGPT** [[OpenAI]]() Mar 2022 [close]  
+- **InstructGPT** [[OpenAI]]() Mar. 2022 [close]  
    Training language models to follow instructions with human feedback [[Preprint]](https://arxiv.org/abs/2203.02155)
 
   ```yaml
@@ -162,7 +162,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 175B
   ```
 
-- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar 2022 [close]  
+- **Chinchilla** [[DeepMind]](https://www.deepmind.com/publications/an-empirical-analysis-of-compute-optimal-large-language-model-training) Mar. 2022 [close]  
    Training Compute-Optimal Large Language Models [[Preprint]](https://arxiv.org/abs/2203.15556)
 
   ```yaml
@@ -173,7 +173,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar 2022 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master)  
+- **EVA 2.0** [[BAAI]](https://wudaoai.cn/model/detail/EVA) Mar. 2022 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master)  
    EVA2.0: Investigating Open-Domain Chinese Dialogue Systems with Large-Scale Pre-Training [[Preprint]](https://arxiv.org/abs/2203.09313)
 
   ```yaml
@@ -182,7 +182,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training Data: 180G (1.4B samples, Chinese)
   ```
 
-- **AlphaCode** [[DeepMind]](https://www.deepmind.com/blog/competitive-programming-with-alphacode) Mar 2022 [close]  
+- **AlphaCode** [[DeepMind]](https://www.deepmind.com/blog/competitive-programming-with-alphacode) Mar. 2022 [close]  
    Competition-Level Code Generation with AlphaCode [[Preprint]](https://arxiv.org/abs/2203.07814)
 
   ```yaml
@@ -192,7 +192,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **ST-MoE** [[Google]]() Feb 2022 [close]  
+- **ST-MoE** [[Google]]() Feb. 2022 [close]  
    ST-MoE: Designing Stable and Transferable Sparse Expert Models [[Preprint]](https://arxiv.org/abs/2202.08906)
 
   ```yaml
@@ -201,7 +201,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: En-De, MoE
   ```
 
-- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan 2022 [close]  
+- **LaMDA** [[Google]](https://arxiv.org/abs/2201.08239) Jan. 2022 [close]  
    LaMDA: Language Models for Dialog Applications [[Preprint]](https://arxiv.org/abs/2201.08239)
 
   ```yaml
@@ -212,7 +212,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec 2022 [close]  
+- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2022 [close]  
    ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
 
   ```yaml
@@ -222,7 +222,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: Transformer, dVAE + De
   ```
 
-- **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec 2021 [close]  
+- **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec. 2021 [close]  
    GLaM: Efficient Scaling of Language Models with Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2112.06905)
 
   ```yaml
@@ -231,7 +231,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De, MoE
   ```
 
-- **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec 2021 [close]  
+- **Gopher** [[DeepMind]](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) Dec. 2021 [close]  
    Scaling Language Models: Methods, Analysis & Insights from Training Gopher [[Preprint]](https://arxiv.org/abs/2112.11446)
 
   ```yaml
@@ -242,7 +242,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **Yuan 1.0** [[inspur]](https://air.inspur.com/home) Oct 2021 [close]  
+- **Yuan 1.0** [[inspur]](https://air.inspur.com/home) Oct. 2021 [close]  
    Yuan 1.0: Large-Scale Pre-trained Language Model in Zero-Shot and Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2110.04725)
 
   ```yaml
@@ -253,7 +253,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De, MoE
   ```
 
-- **MT-NLG** [[Microsoft, Nvidia]](https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/) Oct 2021 [close]  
+- **MT-NLG** [[Microsoft, Nvidia]](https://www.microsoft.com/en-us/research/blog/using-deepspeed-and-megatron-to-train-megatron-turing-nlg-530b-the-worlds-largest-and-most-powerful-generative-language-model/) Oct. 2021 [close]  
    Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model [[Preprint]](https://arxiv.org/abs/2201.11990)
 
   ```yaml
@@ -264,7 +264,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **Flan-LaMDA** [[Google]]() Sept 2021 [close]  
+- **Flan-LaMDA** [[Google]]() Sept. 2021 [close]  
    Finetuned Language Models are Zero-shot Learners [[Preprint]](https://arxiv.org/pdf/2109.01652.pdf)
 
   ```yaml
@@ -274,7 +274,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **Plato-XL** [[Baidu]](http://research.baidu.com/Blog/index-view?id=163) Sept 2021 [close]  
+- **Plato-XL** [[Baidu]](http://research.baidu.com/Blog/index-view?id=163) Sept. 2021 [close]  
    PLATO-XL: Exploring the Large-scale Pre-training of Dialogue Generation [[Preprint]](https://arxiv.org/abs/2109.09519)
 
   ```yaml
@@ -283,7 +283,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training Data: (1.2B samples)
   ```
 
-- **Jurassic-1** [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug 2021 [close]  
+- **Jurassic-1** [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug. 2021 [close]  
    Jurassic-1: Technical Details and Evaluation [[Preprint]](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
 
   ```yaml
@@ -346,7 +346,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: En-De
   ```
 
-- **PanGu-α** [[Huawei]]() Apr 2021 [close]  
+- **PanGu-α** [[Huawei]]() Apr. 2021 [close]  
    PanGu-α: Large-scale Autoregressive Pretrained Chinese Language Models with Auto-parallel Computation [[Preprint]](https://arxiv.org/abs/2104.12369)
 
   ```yaml
@@ -357,7 +357,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **mT5** [[Google]]() Mar 2021 [[open]](https://github.com/google-research/multilingual-t5)  
+- **mT5** [[Google]]() Mar. 2021 [[open]](https://github.com/google-research/multilingual-t5)  
    mT5: A massively multilingual pre-trained text-to-text transformer [[Preprint]](https://arxiv.org/abs/2010.11934)
 
   ```yaml
@@ -367,7 +367,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: En-De
   ```
 
-- **WuDao-WenHui** [[BAAI]]() Mar 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/Transformer-XL)
+- **WuDao-WenHui** [[BAAI]]() Mar. 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/Transformer-XL)
 
   ```yaml
   Field: Language
@@ -375,7 +375,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training Data: 303GB (Chinese)
   ```
 
-- **GLM** [[BAAI]]() Mar 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/GLM)  
+- **GLM** [[BAAI]]() Mar. 2021 [[open]](https://openi.pcl.ac.cn/BAAI/WuDao-Model/src/branch/master/GLM)  
    GLM: General Language Model Pretraining with Autoregressive Blank Infilling [[Preprint]](https://arxiv.org/abs/2103.10360)
 
   ```yaml
@@ -384,7 +384,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **Switch Transformer** [[Google]]() Jan 2021 [[open]](https://github.com/google-research/t5x)  
+- **Switch Transformer** [[Google]]() Jan. 2021 [[open]](https://github.com/google-research/t5x)  
    Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity [[Preprint]](https://arxiv.org/abs/2101.03961)
 
   ```yaml
@@ -396,7 +396,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: MLM
   ```
 
-- **CPM** [[BAAI]]() Dec 2020 [[open]](https://github.com/TsinghuaAI/CPM)  
+- **CPM** [[BAAI]]() Dec. 2020 [[open]](https://github.com/TsinghuaAI/CPM)  
    CPM: A Large-scale Generative Chinese Pre-trained Language Model [[Preprint]](https://arxiv.org/abs/2012.00413)
 
   ```yaml
@@ -422,7 +422,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Obective: LTR
   ```
 
-- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr 2020 [[close]](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
+- **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr. 2020 [[close]](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
    Recipes for building an open-domain chatbot [[Preprint]](https://arxiv.org/abs/2004.13637)
 
   ```yaml
@@ -430,7 +430,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 9.4B
   ```
 
-- **T-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb 2020 [close]
+- **T-NLG** [[Microsoft]](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/) Feb. 2020 [close]
 
   ```yaml
   Field: Language
@@ -440,7 +440,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Obective: LTR
   ```
 
-- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan 2020 [close]  
+- **Meena** [[Google]](https://ai.googleblog.com/2020/01/towards-conversational-agent-that-can.html) Jan. 2020 [close]  
    Towards a Human-like Open-Domain Chatbot [[Preprint]](https://arxiv.org/abs/2001.09977)
 
   ```yaml
@@ -450,7 +450,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training petaFLOPs: 110M
   ```
 
-- **DialoGPT** [[Microsoft]](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) Nov 2019 [[open]](https://github.com/microsoft/DialoGPT)  
+- **DialoGPT** [[Microsoft]](https://www.microsoft.com/en-us/research/project/large-scale-pretraining-for-response-generation/) Nov. 2019 [[open]](https://github.com/microsoft/DialoGPT)  
    DialoGPT: Large-Scale Generative Pre-training for Conversational Response Generation [[ACL'20]](https://arxiv.org/abs/1911.00536)
 
   ```yaml
@@ -460,7 +460,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: De
   ```
 
-- **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct 2019 [[open]](https://github.com/google-research/text-to-text-transfer-transformer)  
+- **T5** [[Google]](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html) Oct. 2019 [[open]](https://github.com/google-research/text-to-text-transfer-transformer)  
    Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer [[JMLR'19]](https://arxiv.org/abs/1910.10683)
 
   ```yaml
@@ -473,7 +473,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Obective: MLM
   ```
 
-- **Megatron-LM** [[Nvidia]]() Sept 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron-LM** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
    Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
 
   ```yaml
@@ -485,7 +485,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Obective: LTR
   ```
 
-- **Megatron-BERT** [[Nvidia]]() Sept 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron-BERT** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
    Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
 
   ```yaml
@@ -522,7 +522,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: PLM
   ```
 
-- **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb 2019 [[open]](https://github.com/openai/gpt-2)  
+- **GPT-2** [[OpenAI]](https://openai.com/blog/better-language-models/) Feb. 2019 [[open]](https://github.com/openai/gpt-2)  
    Language Models are Unsupervised Multitask Learners [[Preprint]](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
   ```yaml
@@ -535,7 +535,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: LTR
   ```
 
-- **BERT** [[Google]]() Oct 2018 [[open]](https://github.com/google-research/bert)  
+- **BERT** [[Google]]() Oct. 2018 [[open]](https://github.com/google-research/bert)  
    BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding [[NAACL'18]](https://arxiv.org/abs/1810.04805)
 
   ```yaml
@@ -563,7 +563,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ### Vision Models
 
-- **MAE->WSP-2B** [[Meta]]() Mar 2023 [close]  
+- **MAE->WSP-2B** [[Meta]]() Mar. 2023 [close]  
    The effectiveness of MAE pre-pretraining for billion-scale pretraining
 
   ```yaml
@@ -574,7 +574,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: MAE, Weakly-Supervised
   ```
 
-- **OpenCLIP G/14** [[LAION]]() Mar 2023 [[open]](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K)
+- **OpenCLIP G/14** [[LAION]]() Mar. 2023 [[open]](https://huggingface.co/laion/CLIP-ViT-g-14-laion2B-s12B-b42K)
 
   ```yaml
   Field: Vision-Language
@@ -582,7 +582,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training Data: (2B images)
   ```
 
-- **ViT-22B** [[Google]]() Feb 2023 [close]
+- **ViT-22B** [[Google]]() Feb. 2023 [close]
   Scaling Vision Transformers to 22 Billion Parameters
 
   ```yaml
@@ -593,7 +593,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: Supervised
   ```
 
-- **InternImage-G** [[Shanghai AI Lab]](https://github.com/OpenGVLab/InternImage) Nov 2022 [[open]](https://github.com/OpenGVLab/InternImage)
+- **InternImage-G** [[Shanghai AI Lab]](https://github.com/OpenGVLab/InternImage) Nov. 2022 [[open]](https://github.com/OpenGVLab/InternImage)
   InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions [[CVPR'23 Highlight]](https://arxiv.org/abs/2211.05778)
 
   ```yaml
@@ -603,7 +603,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Core Operator: Deformable Convolution v3
   ```
 
-- **Stable Diffusion** [[Stability AI]]() Aug 2022 [[open]]()
+- **Stable Diffusion** [[Stability AI]]() Aug. 2022 [[open]]()
 
   ```yaml
   Field: Image Generation (text to image)
@@ -621,7 +621,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Image Decoder: Diffusion, Upsampler
   ```
 
-- **Flamingo** [[DeepMind]]() Apr 2022 [close]  
+- **Flamingo** [[DeepMind]]() Apr. 2022 [close]  
    Flamingo: a Visual Language Model for Few-Shot Learning [[Preprint]](https://arxiv.org/abs/2204.14198)
 
   ```yaml
@@ -629,7 +629,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 80B
   ```
 
-- **DALL·E 2** [[OpenAI]](https://openai.com/dall-e-2/) Apr 2022  
+- **DALL·E 2** [[OpenAI]](https://openai.com/dall-e-2/) Apr. 2022  
    Hierarchical Text-Conditional Image Generation with CLIP Latents [[Preprint]](https://cdn.openai.com/papers/dall-e-2.pdf)
 
   ```yaml
@@ -639,7 +639,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Image Decoder: Diffusion, Upsampler
   ```
 
-- **BaGuaLu** [[BAAI, Alibaba]]() Apr 2022  
+- **BaGuaLu** [[BAAI, Alibaba]]() Apr. 2022  
    BaGuaLu: targeting brain scale pretrained models with over 37 million cores [[PPoPP'22]](https://keg.cs.tsinghua.edu.cn/jietang/publications/PPOPP22-Ma%20et%20al.-BaGuaLu%20Targeting%20Brain%20Scale%20Pretrained%20Models%20w.pdf)
 
   ```yaml
@@ -648,7 +648,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: M6
   ```
 
-- **SEER** [[Meta]]() Feb 2022 [[open]](https://github.com/facebookresearch/vissl)  
+- **SEER** [[Meta]]() Feb. 2022 [[open]](https://github.com/facebookresearch/vissl)  
    Vision Models Are More Robust And Fair When Pretrained On Uncurated Images Without Supervision [[Preprint]](https://arxiv.org/abs/2202.08360v2)
 
   ```yaml
@@ -659,7 +659,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: SwAV
   ```
 
-- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec 2021  
+- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2021  
    ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
 
   ```yaml
@@ -669,7 +669,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: Transformer, dVAE + De
   ```
 
-- **NUWA** [[Microsoft]]() Nov 2021 [[open]](https://github.com/microsoft/NUWA)  
+- **NUWA** [[Microsoft]]() Nov. 2021 [[open]](https://github.com/microsoft/NUWA)  
    NÜWA: Visual Synthesis Pre-training for Neural visUal World creAtion [[Preprint]](https://arxiv.org/abs/2111.12417)
 
   ```yaml
@@ -678,7 +678,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 870M
   ```
 
-- **SwinV2-G** [[Google]]() Nov 2021 [[open]](https://github.com/microsoft/Swin-Transformer)  
+- **SwinV2-G** [[Google]]() Nov. 2021 [[open]](https://github.com/microsoft/Swin-Transformer)  
    Swin Transformer V2: Scaling Up Capacity and Resolution [[CVPR'22]](https://arxiv.org/abs/2111.09883v2)
 
   ```yaml
@@ -689,7 +689,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: Supervised
   ```
 
-- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept 2021 [close]
+- **Zidongtaichu** [[CASIA]](http://www.ia.cas.cn/xwzx/kydt/202109/t20210927_6215538.html) Sept. 2021 [close]
 
   ```yaml
   Field: Image, Video, Language, Speech
@@ -744,7 +744,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Text Encoder & Image Decoder: GPT2
   ```
 
-- **M6** [[Alibaba]](https://m6.aliyun.com/#/) Mar 2021  
+- **M6** [[Alibaba]](https://m6.aliyun.com/#/) Mar. 2021  
    M6: A Chinese Multimodal Pretrainer [[Preprint]](https://arxiv.org/abs/2103.00823)
 
   ```yaml
@@ -756,7 +756,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: MLM, IC
   ```
 
-- **DALL·E** [[OpenAI]](https://openai.com/blog/dall-e/) Feb 2021  
+- **DALL·E** [[OpenAI]](https://openai.com/blog/dall-e/) Feb. 2021  
    Zero-Shot Text-to-Image Generation [[ICML'21]](https://arxiv.org/abs/2102.12092)
 
   ```yaml
@@ -768,7 +768,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Text Encoder & Image Decoder: GPT2
   ```
 
-- **CLIP** [[OpenAI]](https://openai.com/blog/clip/) Jan 2021  
+- **CLIP** [[OpenAI]](https://openai.com/blog/clip/) Jan. 2021  
    Learning Transferable Visual Models From Natural Language Supervision [[ICML'22]](https://arxiv.org/abs/2103.00020)
 
   ```yaml
@@ -781,7 +781,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Objective: CMCL
   ```
 
-- **ViT-H/14** [[Google]](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html) Oct 2020 [[open]](https://github.com/google-research/vision_transformer)  
+- **ViT-H/14** [[Google]](https://ai.googleblog.com/2020/12/transformers-for-image-recognition-at.html) Oct. 2020 [[open]](https://github.com/google-research/vision_transformer)  
    An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [[ICLR'20]](https://arxiv.org/abs/2010.11929)
 
   ```yaml
@@ -804,7 +804,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Architecture: Transformer, De
   ```
 
-- **BigGAN-deep** [[DeepMind]]() Sept 2018 [[open]](https://github.com/ajbrock/BigGAN-PyTorch)  
+- **BigGAN-deep** [[DeepMind]]() Sept. 2018 [[open]](https://github.com/ajbrock/BigGAN-PyTorch)  
    Large Scale GAN Training for High Fidelity Natural Image Synthesis [[ICLR'19]](https://arxiv.org/abs/1809.11096)
 
   ```yaml
@@ -838,26 +838,55 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ### Speech
 
+- **USM** [[Google]](https://sites.research.google/usm/) Mar. 2023 [close]  
+  Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages [[Preprint]](https://arxiv.org/pdf/2303.01037v2.pdf)  
+
+  ```yaml
+  Field: Speech
+  Params: 2B
+  Training Data: 12,000,000 hours
+  ```
+
+- **Whisper** [[OpenAI]](https://openai.com/research/whisper) Sept. 2022 [[close]](https://github.com/openai/whisper)  
+    Robust Speech Recognition via Large-Scale Weak Supervision [[Preprint]](https://arxiv.org/pdf/2212.04356.pdf)
+
+    ```yaml
+    Field: Speech
+    Params: 1.55B
+    Training Data: 680,000 hours
+    Objective: Weakly Supervised
+    ```
+
 - **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
    HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units [[Preprint]](https://arxiv.org/abs/2106.07447)
 
   ```yaml
   Field: Speech
   Params: 1B
-  Training Data: (60k hours)
+  Training Data: 60,000 hours
   Objective: MLM
   ```
 
-- **wav2vec 2.0** [[Meta]](https://arxiv.org/abs/2006.11477) Oct 2020 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
+- **wav2vec 2.0** [[Meta]]() Oct. 2020 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)  
    wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations [[NeurIPS'20]](https://arxiv.org/abs/2006.11477)
 
   ```yaml
   Field: Speech
   Params: 317M
-  Training Data: (50k hours)
+  Training Data: 50,000 hours
   Training petaFLOPs: 430M
   Objective: MLM
   ```
+
+- **DeepSpeech 2** [[Meta]]() Dec. 2015 [[open]](https://github.com/PaddlePaddle/PaddleSpeech)  
+    Deep Speech 2: End-to-End Speech Recognition in
+English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
+
+    ```yaml
+    Field: Speech
+    Params: 300M
+    Training Data: 21,340 hours
+    ```
 
 ### Sicence
 
@@ -876,90 +905,90 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ### PyTorch Ecosystem
 
-- **Accelerate** [[Huggingface]]() Oct 2020 [[open]](https://github.com/huggingface/accelerate)
-- **Hivemind** Aug 2020 [[open]](https://github.com/learning-at-home/hivemind)  
+- **Accelerate** [[Huggingface]]() Oct. 2020 [[open]](https://github.com/huggingface/accelerate)
+- **Hivemind** Aug. 2020 [[open]](https://github.com/learning-at-home/hivemind)  
   Towards Crowdsourced Training of Large Neural Networks using Decentralized Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2002.04013)
 - **FairScale** [[Meta]]() July 2020 [[open]](https://github.com/facebookresearch/fairscale)
-- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [[open]](https://github.com/microsoft/DeepSpeed)  
+- **DeepSpeed** [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct. 2019 [[open]](https://github.com/microsoft/DeepSpeed)  
    ZeRO: Memory Optimizations Toward Training Trillion Parameter Models [[SC'20]](https://arxiv.org/abs/1910.02054)
-- **Megatron** [[Nivida]]() Sept 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
+- **Megatron** [[Nivida]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
    Megatron: Training Multi-Billion Parameter Language Models Using Model Parallelism [[Preprint]](https://arxiv.org/abs/1909.08053)
-- **PyTorch\*** [[Meta]](https://pytorch.org/) Sept 2016 [[open]](https://github.com/pytorch/pytorch)  
+- **PyTorch\*** [[Meta]](https://pytorch.org/) Sept. 2016 [[open]](https://github.com/pytorch/pytorch)  
    PyTorch: An Imperative Style, High-Performance Deep Learning Library [[NeurIPS'19]](http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf)
 
 ### XLA Ecosystem
 
-- **Alpa** [[Google]]() Jan 2022 [[open]](https://github.com/alpa-projects/alpa)  
+- **Alpa** [[Google]]() Jan. 2022 [[open]](https://github.com/alpa-projects/alpa)  
   Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning [[OSDI'22]](https://arxiv.org/pdf/2201.12023.pdf)
-- **Pathways** [[Google]](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/) Mar 2021 [close]  
+- **Pathways** [[Google]](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/) Mar. 2021 [close]  
    Pathways: Asynchronous Distributed Dataflow for ML [[Preprint]](https://arxiv.org/abs/2203.12533)
-- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov 2021 [[open]](https://github.com/hpcaitech/ColossalAI)  
+- **Colossal-AI** [[HPC-AI TECH]](https://colossalai.org/) Nov. 2021 [[open]](https://github.com/hpcaitech/ColossalAI)  
    Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training [[Preprint]](https://arxiv.org/abs/2110.14883)
 - **GShard** [[Google]](https://arxiv.org/abs/2006.16668) June 2020  
    GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding [[Preprint]](https://arxiv.org/abs/2006.16668)
 - **Mesh Tensorflow** [[Google]]()
-- **Horovod** [[Uber]](https://horovod.ai/) Feb 2018 [[open]](https://github.com/horovod/horovod)  
+- **Horovod** [[Uber]](https://horovod.ai/) Feb. 2018 [[open]](https://github.com/horovod/horovod)  
    Horovod: fast and easy distributed deep learning in TensorFlow [[Preprint]](https://arxiv.org/abs/1802.05799)
-- **Tensorflow\*** [[Google]](https://www.tensorflow.org/) Nov 2015 [[open]](https://github.com/tensorflow/tensorflow)  
+- **Tensorflow\*** [[Google]](https://www.tensorflow.org/) Nov. 2015 [[open]](https://github.com/tensorflow/tensorflow)  
    TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
 ### Other Framworks
 
 - **OneFlow\*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [[open]](https://github.com/OneFlow-Inc/oneflow)  
    OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
-- **MindSpore\*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar 2020 [[open]](https://github.com/mindspore-ai/mindspore)
-- **PaddlePaddle\*** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov 2018 [[open]](https://github.com/PaddlePaddle/Paddle)  
+- **MindSpore\*** [[Huawei]](https://e.huawei.com/en/products/cloud-computing-dc/atlas/mindspore) Mar. 2020 [[open]](https://github.com/mindspore-ai/mindspore)
+- **PaddlePaddle\*** [[Baidu]](https://www.paddlepaddle.org.cn/) Nov. 2018 [[open]](https://github.com/PaddlePaddle/Paddle)  
    End-to-end Adaptive Distributed Training on PaddlePaddle [[Preprint]](https://arxiv.org/abs/2112.02752)
-- **Ray** [[Berkeley]]() Dec 2017 [[open]]([OSDI'17](https://github.com/ray-project/ray))  
+- **Ray** [[Berkeley]]() Dec. 2017 [[open]]([OSDI'17](https://github.com/ray-project/ray))  
    Ray: A Distributed Framework for Emerging AI Applications [[OSDI'17]](https://arxiv.org/pdf/1712.05889.pdf)
 
 ### Inference Frameworks
 
-- Petals [[BigScience]]() Dec 2022 [[open]](https://github.com/bigscience-workshop/petals)
+- Petals [[BigScience]]() Dec. 2022 [[open]](https://github.com/bigscience-workshop/petals)
 - FlexGen [[Stanford, Berkerley, CMU, etc.]]() May 2022 [[open]](https://github.com/FMInference/FlexGen)
-- FastTransformer [[NVIDIA]]() Apr 2021 [[open]](https://github.com/NVIDIA/FasterTransformer)
-- MegEngine [[MegEngine]](https://www.megengine.org.cn/) Mar 2020
-- DeepSpeed-Inference [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [[open]](https://github.com/microsoft/DeepSpeed)
+- FastTransformer [[NVIDIA]]() Apr. 2021 [[open]](https://github.com/NVIDIA/FasterTransformer)
+- MegEngine [[MegEngine]](https://www.megengine.org.cn/) Mar. 2020
+- DeepSpeed-Inference [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct. 2019 [[open]](https://github.com/microsoft/DeepSpeed)
 - MediaPipe [[Google]](https://google.github.io/mediapipe/) July 2019 [[open]](https://github.com/google/mediapipe)
 - TensorRT [[Nvidia]]() Jun 2019 [[open]](https://github.com/NVIDIA/TensorRT)
 - MNN [[Alibaba]]() May 2019 [[open]](https://github.com/alibaba/MNN)
-- OpenVINO [[Intel]](https://docs.openvino.ai/latest/index.html) Oct 2019 [[open]](https://github.com/openvinotoolkit/openvino)
+- OpenVINO [[Intel]](https://docs.openvino.ai/latest/index.html) Oct. 2019 [[open]](https://github.com/openvinotoolkit/openvino)
 - ONNX [[Linux Foundation]](https://onnx.ai/) Sep 2017 [[open]](https://github.com/onnx/onnx)
 - ncnn [[Tencent]]() July 2017 [[open]](https://github.com/Tencent/ncnn)
 
 ### Recommendation Training Framework
 
-- **HET** [[Tencent]]() Dec 2021  
+- **HET** [[Tencent]]() Dec. 2021  
    HET: Scaling out Huge Embedding Model Training via Cache-enabled Distributed Framework [[VLDB'22]](https://arxiv.org/abs/2112.07221)
-- **Persia** [[Kuaishou]]() Nov 2021  
+- **Persia** [[Kuaishou]]() Nov. 2021  
    Persia: An Open, Hybrid System Scaling Deep Learning-based Recommenders up to 100 Trillion Parameters [[Preprint]](https://arxiv.org/abs/2111.05897)
 
   ```yaml
   Embeddings Params: 100T
   ```
 
-- **ZionEX** [[Meta]]() Apr 2021  
+- **ZionEX** [[Meta]]() Apr. 2021  
    Software-Hardware Co-design for Fast and Scalable Training of Deep Learning Recommendation Models [[ISCA'21]](https://arxiv.org/abs/2104.05158)
 
   ```yaml
   Embeddings Params: 10T
   ```
 
-- **ScaleFreeCTR** [[Huawei]]() Apr 2021  
+- **ScaleFreeCTR** [[Huawei]]() Apr. 2021  
    ScaleFreeCTR: MixCache-based Distributed Training System for CTR Models with Huge Embedding Table [[SIGIR'21]](https://arxiv.org/abs/2104.08542)
-- **Kraken** [[Kuaishou]]() Nov 2020  
+- **Kraken** [[Kuaishou]]() Nov. 2020  
    Kraken: Memory-Efficient Continual Learning for Large-Scale Real-Time Recommendations [[SC'20]](http://storage.cs.tsinghua.edu.cn/papers/sc20-kraken.pdf/)
-- **TensorNet** [[Qihoo360]]() Sept 2020 [[open]](https://github.com/Qihoo360/tensornet)
-- **HierPS** [[Baidu]]() Mar 2020  
+- **TensorNet** [[Qihoo360]]() Sept. 2020 [[open]](https://github.com/Qihoo360/tensornet)
+- **HierPS** [[Baidu]]() Mar. 2020  
    Distributed Hierarchical GPU Parameter Server for Massive Scale Deep Learning Ads Systems [[MLSys'20]](https://arxiv.org/abs/2003.05622)
-- **AIBox** [[Baidu]]() Oct 2019  
+- **AIBox** [[Baidu]]() Oct. 2019  
    AIBox: CTR Prediction Model Training on a Single Node [[CIKM'20]](https://dl.acm.org/doi/pdf/10.1145/3357384.3358045)
 
   ```yaml
   Embeddings Params: 0.1T
   ```
 
-- **XDL** [[Alibaba]]() Aug 2019  
+- **XDL** [[Alibaba]]() Aug. 2019  
    XDL: an industrial deep learning framework for high-dimensional sparse data [[DLP-KDD'21]](https://dlp-kdd.github.io/dlp-kdd2019/assets/pdf/a6-jiang.pdf)
 
   ```yaml
