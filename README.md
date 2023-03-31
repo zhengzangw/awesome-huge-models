@@ -8,6 +8,10 @@ A collection of AWESOME things about HUGE AI models.
 
 There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
 
+To support the open source process of LLM, we highligh the open-sourced LLM models here:
+
+> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B.
+
 <!-- omit in toc -->
 
 ## Contents
@@ -77,7 +81,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
   ```yaml
   Field: Language
-  Params: 176B
+  Params: 176B (336B tokens)
   Training Data: 174GB
   Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
   Training Power Consumption: 475 MWh
@@ -100,7 +104,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
   ```yaml
   Field: Language
-  Params: 20B
+  Params: 20B (1T tokens)
   Training Data: 800GB
   Achitecture: En-De
   ```
