@@ -25,6 +25,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
     - [PyTorch Ecosystem](#pytorch-ecosystem)
     - [XLA Ecosystem](#xla-ecosystem)
     - [Other Framworks](#other-framworks)
+    - [Inference Frameworks](#inference-frameworks)
     - [Recommendation Training Framework](#recommendation-training-framework)
   - [Keys Explanations](#keys-explanations)
 
@@ -875,6 +876,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 ### PyTorch Ecosystem
 
+- **Accelerate** [[Huggingface]]() Oct 2020 [[open]](https://github.com/huggingface/accelerate)
 - **Hivemind** Aug 2020 [[open]](https://github.com/learning-at-home/hivemind)  
   Towards Crowdsourced Training of Large Neural Networks using Decentralized Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2002.04013)
 - **FairScale** [[Meta]]() July 2020 [[open]](https://github.com/facebookresearch/fairscale)
@@ -910,6 +912,20 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
    End-to-end Adaptive Distributed Training on PaddlePaddle [[Preprint]](https://arxiv.org/abs/2112.02752)
 - **Ray** [[Berkeley]]() Dec 2017 [[open]]([OSDI'17](https://github.com/ray-project/ray))  
    Ray: A Distributed Framework for Emerging AI Applications [[OSDI'17]](https://arxiv.org/pdf/1712.05889.pdf)
+
+### Inference Frameworks
+
+- Petals [[BigScience]]() Dec 2022 [[open]](https://github.com/bigscience-workshop/petals)
+- FlexGen [[Stanford, Berkerley, CMU, etc.]]() May 2022 [[open]](https://github.com/FMInference/FlexGen)
+- FastTransformer [[NVIDIA]]() Apr 2021 [[open]](https://github.com/NVIDIA/FasterTransformer)
+- MegEngine [[MegEngine]](https://www.megengine.org.cn/) Mar 2020
+- DeepSpeed-Inference [[Microsoft]](https://www.microsoft.com/en-us/research/project/deepspeed/) Oct 2019 [[open]](https://github.com/microsoft/DeepSpeed)
+- MediaPipe [[Google]](https://google.github.io/mediapipe/) July 2019 [[open]](https://github.com/google/mediapipe)
+- TensorRT [[Nvidia]]() Jun 2019 [[open]](https://github.com/NVIDIA/TensorRT)
+- MNN [[Alibaba]]() May 2019 [[open]](https://github.com/alibaba/MNN)
+- OpenVINO [[Intel]](https://docs.openvino.ai/latest/index.html) Oct 2019 [[open]](https://github.com/openvinotoolkit/openvino)
+- ONNX [[Linux Foundation]](https://onnx.ai/) Sep 2017 [[open]](https://github.com/onnx/onnx)
+- ncnn [[Tencent]]() July 2017 [[open]](https://github.com/Tencent/ncnn)
 
 ### Recommendation Training Framework
 
