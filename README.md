@@ -72,13 +72,6 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 52B
   ```
 
-- **ChatGPT** [[OpenAI]]() Nov. 2022 [close]
-
-  ```yaml
-  Field: Language (Dialog)
-  Params: 175B
-  ```
-
 - **BLOOM** [[BigScience]]() Nov. 2022 [[open]](https://huggingface.co/bigscience/bloom)  
    A 176B-Parameter Open-Access Multilingual Language Model [[Preprint]](https://arxiv.org/pdf/2211.05100.pdf)
 
@@ -100,14 +93,6 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Training Data: (400B tokens)
   Training Cost: 516,096 A100 hours = 768 40G-A100 x 28 days
   Architecture: De
-  ```
-
-- **Flan-T5, Flan-PaLM** [[Google]]() Oct. 2022  
-   Scaling Instruction-Finetuned Language Models [[Preprint]](https://arxiv.org/pdf/2210.11416.pdf)
-
-  ```yaml
-  Field: Language
-  Note: Intruct tuning of T5 and PaLM
   ```
 
 - **UL2** [[Google]]() May 2022 [[open]](https://huggingface.co/google/ul2)  
@@ -261,16 +246,6 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
   Params: 530B
   Training Data: (339B tokens)
   Training petaFLOPs: 1.4B
-  Architecture: De
-  ```
-
-- **Flan-LaMDA** [[Google]]() Sept. 2021 [close]  
-   Finetuned Language Models are Zero-shot Learners [[Preprint]](https://arxiv.org/pdf/2109.01652.pdf)
-
-  ```yaml
-  Field: Language
-  Params: 137B
-  Training Data: Instruct tuning on 60 NLP datasets
   Architecture: De
   ```
 
