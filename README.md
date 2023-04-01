@@ -10,7 +10,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 To support the open source process of LLM, we highligh the open-sourced LLM models here:
 
-> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B.
+> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B.
 
 <!-- omit in toc -->
 
@@ -66,6 +66,14 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Cost: 1,022,362 (2048 80G-A100 x 21 days)
   Training Power Consumption: 449 MWh
   Achitecture: De
+  ```
+
+- **RWKV-4-14B** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)  
+
+  ```yaml
+  Field: Language
+  Params: 14B
+  Training Data: (332B tokens)
   ```
 
 - **AnthropicLM** [[Anthropic]]() Dec. 2022 [close]  
