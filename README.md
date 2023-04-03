@@ -10,7 +10,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 To support the open source process of LLM, we highligh the open-sourced LLM models here:
 
-> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B.
+> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B, Cerabras-GPT-13B.
 
 <!-- omit in toc -->
 
@@ -49,6 +49,15 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 
 ### Language Model
 
+- **Cerabras-GPT** [[Cerabras]]() Mar. 2023 [[open]](https://huggingface.co/cerebras/Cerebras-GPT-13B)  
+  Training Compute-Optimal Large Language Models [[preprint]](https://arxiv.org/abs/2203.15556)  
+
+  ```yaml
+  Field: Language
+  Params: 13B
+  Training Data: (371B tokens)
+  ```
+
 - **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar. 2023 [close]  
    GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
 
@@ -65,10 +74,9 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Data: 4TB (1.4T tokens)
   Training Cost: 1,022,362 (2048 80G-A100 x 21 days)
   Training Power Consumption: 449 MWh
-  Achitecture: De
   ```
 
-- **RWKV-4-14B** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)  
+- **RWKV-4-14B** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)
 
   ```yaml
   Field: Language
@@ -89,11 +97,18 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 
   ```yaml
   Field: Language
-  Params: 176B (336B tokens)
-  Training Data: 174GB
+  Params: 176B
+  Training Data: 174GB (336B tokens)
   Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
   Training Power Consumption: 475 MWh
-  Architecture: De
+  Training Framework: Megatron + Deepspeed
+  ```
+
+- **Pythia** [[EleutherAI]]() Oct. 2022 [[open]](https://github.com/EleutherAI/pythia)
+  
+  ```yaml
+  Field: Language
+  Params: 12B
   ```
 
 - **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct. 2022 [[open]](https://github.com/THUDM/GLM-130B)  
@@ -104,7 +119,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Params: 130B
   Training Data: (400B tokens)
   Training Cost: 516,096 A100 hours = 768 40G-A100 x 28 days
-  Architecture: De
+  Training Framework: Megatron + Deepspeed
   ```
 
 - **UL2** [[Google]]() May 2022 [[open]](https://huggingface.co/google/ul2)  
@@ -115,6 +130,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Params: 20B (1T tokens)
   Training Data: 800GB
   Achitecture: En-De
+  Training Framework: Jax + T5x
   ```
 
 - **OPT** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [[open]](https://github.com/facebookresearch/metaseq)  
@@ -127,6 +143,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Cost: 809,472 A100 hours =  992 80G-A100 x 34 days
   Training Power Consumption: 356 MWh
   Architecutre: De
+  Training Framework: Megatron + Fairscale
   ```
 
 - **PaLM** [[Google]](https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html) Apr. 2022 [close]  
@@ -139,6 +156,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Cost: $10M (16,809,984 TPUv4core-hours, 64 days)
   Training petaFLOPs: 2.5B
   Architecture: De
+  Training Framework: Jax + T5x
   ```
 
 - **GPT-NeoX** [[EleutherAI]](https://blog.eleuther.ai/announcing-20b/) Apr. 2022 [[open]](https://github.com/EleutherAI/gpt-neox)  
@@ -147,8 +165,10 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 20B
+  Training Data: 525GiB
   Training petaFLOPs: 93B
   Architecture: De
+  Training Framework: Megatron + Fairscale
   ```
 
 - **InstructGPT** [[OpenAI]]() Mar. 2022 [close]  
@@ -165,7 +185,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 70B
-  Training Data: 5.2TB
+  Training Data: 5.2TB (500B tokens)
   Training petaFLOPs: 580M
   Architecture: De
   ```
@@ -470,6 +490,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training petaFLOPs: 9.1M
   Architecture: De
   Obective: LTR
+  Training Framework: Megatron
   ```
 
 - **Megatron-BERT** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
@@ -482,6 +503,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training petaFLOPs: 57M
   Architecture: En
   Obective: MLM
+  Training Framework: Megatron
   ```
 
 - **RoBERTa** [[Meta]](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/) July 2019 [[open]](https://github.com/facebookresearch/fairseq)  
@@ -826,7 +848,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 ### Speech
 
 - **USM** [[Google]](https://sites.research.google/usm/) Mar. 2023 [close]  
-  Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages [[Preprint]](https://arxiv.org/pdf/2303.01037v2.pdf)  
+  Google USM: Scaling Automatic Speech Recognition Beyond 100 Languages [[Preprint]](https://arxiv.org/pdf/2303.01037v2.pdf)
 
   ```yaml
   Field: Speech
@@ -835,14 +857,14 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```
 
 - **Whisper** [[OpenAI]](https://openai.com/research/whisper) Sept. 2022 [[close]](https://github.com/openai/whisper)  
-    Robust Speech Recognition via Large-Scale Weak Supervision [[Preprint]](https://arxiv.org/pdf/2212.04356.pdf)
+   Robust Speech Recognition via Large-Scale Weak Supervision [[Preprint]](https://arxiv.org/pdf/2212.04356.pdf)
 
-    ```yaml
-    Field: Speech
-    Params: 1.55B
-    Training Data: 680,000 hours
-    Objective: Weakly Supervised
-    ```
+  ```yaml
+  Field: Speech
+  Params: 1.55B
+  Training Data: 680,000 hours
+  Objective: Weakly Supervised
+  ```
 
 - **HuBERT** [[Meta]](https://ai.facebook.com/blog/hubert-self-supervised-representation-learning-for-speech-recognition-generation-and-compression/) June 2021 [[open]](https://github.com/facebookresearch/fairseq/tree/main/examples/hubert)  
    HuBERT: Self-Supervised Speech Representation Learning by Masked Prediction of Hidden Units [[Preprint]](https://arxiv.org/abs/2106.07447)
@@ -866,14 +888,14 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```
 
 - **DeepSpeech 2** [[Meta]]() Dec. 2015 [[open]](https://github.com/PaddlePaddle/PaddleSpeech)  
-    Deep Speech 2: End-to-End Speech Recognition in
-English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
+   Deep Speech 2: End-to-End Speech Recognition in
+  English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
 
-    ```yaml
-    Field: Speech
-    Params: 300M
-    Training Data: 21,340 hours
-    ```
+      ```yaml
+      Field: Speech
+      Params: 300M
+      Training Data: 21,340 hours
+      ```
 
 ### Sicence
 
@@ -905,6 +927,8 @@ English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
 
 ### XLA Ecosystem
 
+- **T5x** [[Google]]() Mar. 2022 [[open]](https://github.com/google-research/t5x)  
+  Scaling Up Models and Data with 𝚝𝟻𝚡 and 𝚜𝚎𝚚𝚒𝚘 [[Preprint]](https://arxiv.org/abs/2203.17189)
 - **Alpa** [[Google]]() Jan. 2022 [[open]](https://github.com/alpa-projects/alpa)  
   Alpa: Automating Inter- and Intra-Operator Parallelism for Distributed Deep Learning [[OSDI'22]](https://arxiv.org/pdf/2201.12023.pdf)
 - **Pathways** [[Google]](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/) Mar. 2021 [close]  
@@ -913,7 +937,8 @@ English and Mandarin [[ICML'15]](https://arxiv.org/pdf/1512.02595.pdf)
    Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training [[Preprint]](https://arxiv.org/abs/2110.14883)
 - **GShard** [[Google]](https://arxiv.org/abs/2006.16668) June 2020  
    GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding [[Preprint]](https://arxiv.org/abs/2006.16668)
-- **Mesh Tensorflow** [[Google]]()
+- **Jax\*** [Google]() Oct 2019 [[open]](https://github.com/google/jax)
+- **Mesh Tensorflow** [[Google]]() Nov. 2018 [[open]](https://github.com/tensorflow/mesh)
 - **Horovod** [[Uber]](https://horovod.ai/) Feb. 2018 [[open]](https://github.com/horovod/horovod)  
    Horovod: fast and easy distributed deep learning in TensorFlow [[Preprint]](https://arxiv.org/abs/1802.05799)
 - **Tensorflow\*** [[Google]](https://www.tensorflow.org/) Nov. 2015 [[open]](https://github.com/tensorflow/tensorflow)  
