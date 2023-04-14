@@ -10,7 +10,7 @@ There is a trend of training large-scale deep learning models (w.r.t. params, da
 
 To support the open source process of LLM, we highligh the open-sourced LLM models here:
 
-> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B, Cerabras-GPT-13B.
+> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B, Cerabras-GPT-13B, Dolly-12B.
 
 <!-- omit in toc -->
 
@@ -48,6 +48,14 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 ## Models
 
 ### Language Model
+
+- **Dolly 2.0** [[EleutherAI]](https://huggingface.co/databricks/dolly-v2-12b) Apr. 2023 [[open]]()  
+
+  ```yaml
+  Field: Language
+  Params: 12B
+  Training Data: databricks-dolly-15k
+  ```
 
 - **Cerabras-GPT** [[Cerabras]]() Mar. 2023 [[open]](https://huggingface.co/cerebras/Cerebras-GPT-13B)  
   Training Compute-Optimal Large Language Models [[preprint]](https://arxiv.org/abs/2203.15556)  
