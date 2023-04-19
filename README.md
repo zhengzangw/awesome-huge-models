@@ -49,6 +49,14 @@ To support the open source process of LLM, we highlight the open-sourced LLM mod
 
 ### Language Model
 
+- **StableLM** [[Stability AI]](https://github.com/stability-AI/stableLM/) Apr. 2023 [[open]](https://huggingface.co/stabilityai)
+
+  ```yaml
+  Field: Language
+  Params: 3B, 7B, 15B, 30B, 65B, 175B
+  Training Data: The Pile (1.5t tokens)
+  ```
+
 - **Dolly 2.0** [[EleutherAI]](https://huggingface.co/databricks/dolly-v2-12b) Apr. 2023 [[open]]()  
 
   ```yaml
@@ -110,6 +118,14 @@ To support the open source process of LLM, we highlight the open-sourced LLM mod
   Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
   Training Power Consumption: 475 MWh
   Training Framework: Megatron + Deepspeed
+  ```
+  
+- **Galactica** [[Meta]]() Nov. 2022 [[open]](https://huggingface.co/facebook/galactica-1.3b)
+  A scientific language model trained on over 48 million scientific texts [[Preprint]](https://arxiv.org/pdf/2211.09085.pdf)
+  
+  ```yaml
+  Field: Language
+  Params: 125M, 1.3B, 6.7B, 30B, 120B
   ```
 
 - **Pythia** [[EleutherAI]]() Oct. 2022 [[open]](https://github.com/EleutherAI/pythia)
