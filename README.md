@@ -24,7 +24,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
     - [Vision Models](#vision-models)
     - [Reinforcement Learning](#reinforcement-learning)
     - [Speech](#speech)
-    - [Sicence](#sicence)
+    - [Science](#science)
   - [Distributed Training Framework](#distributed-training-framework)
     - [PyTorch Ecosystem](#pytorch-ecosystem)
     - [XLA Ecosystem](#xla-ecosystem)
@@ -905,7 +905,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
       Training Data: 21,340 hours
       ```
 
-### Sicence
+### Science
 
 - **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) July 2021 [[open]](https://github.com/deepmind/alphafold)  
    Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
