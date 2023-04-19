@@ -6,9 +6,9 @@
 
 A collection of AWESOME things about HUGE AI models.
 
-There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
+There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA performance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
 
-To support the open source process of LLM, we highligh the open-sourced LLM models here:
+To support the open source process of LLM, we highlight the open-sourced LLM models here:
 
 > LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B, Cerabras-GPT-13B, Dolly-12B.
 
@@ -28,7 +28,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   - [Distributed Training Framework](#distributed-training-framework)
     - [PyTorch Ecosystem](#pytorch-ecosystem)
     - [XLA Ecosystem](#xla-ecosystem)
-    - [Other Framworks](#other-framworks)
+    - [Other Frameworks](#other-frameworks)
     - [Inference Frameworks](#inference-frameworks)
     - [Recommendation Training Framework](#recommendation-training-framework)
   - [Keys Explanations](#keys-explanations)
@@ -952,7 +952,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 - **Tensorflow\*** [[Google]](https://www.tensorflow.org/) Nov. 2015 [[open]](https://github.com/tensorflow/tensorflow)  
    TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
-### Other Framworks
+### Other Frameworks
 
 - **OneFlow\*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [[open]](https://github.com/OneFlow-Inc/oneflow)  
    OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
