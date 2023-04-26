@@ -209,7 +209,7 @@ To support the open source process of LLM, we highlight the open-sourced LLM mod
   ```yaml
   Field: Language
   Params: 70B
-  Training Data: 5.2TB (500B tokens)
+  Training Data: 5.2TB (1.4T tokens)
   Training petaFLOPs: 580M
   Architecture: De
   ```
