@@ -49,6 +49,14 @@ To support the open source process of LLM, we highlight the open-sourced LLM mod
 
 ### Language Model
 
+- **StableVicuna** [[Vicuna]](https://vicuna.lmsys.org/) Apr. 2023 [[open]](https://github.com/lm-sys/FastChat)
+
+```yaml
+  Field: Language
+  Params: 13B
+  Training Data: ShareGPT
+  ```
+  
 - **StableLM** [[Stability AI]](https://github.com/stability-AI/stableLM/) Apr. 2023 [[open]](https://huggingface.co/stabilityai)
 
   ```yaml
