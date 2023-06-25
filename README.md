@@ -414,6 +414,14 @@ Resources list:
   Training Data: (1.2B samples)
   ```
 
+- **GPT-J** [[EleutherAI]](https://arankomatsuzaki.wordpress.com/2021/06/04/gpt-j/) Aug. 2021 [[open]](https://github.com/kingoflolz/mesh-transformer-jax)  
+
+  ```yaml
+  Field: Language
+  Params: 6B
+  Programming Language: Jax
+  ```
+
 - **Jurassic-1** [[AI21 Labs]](https://www.zdnet.com/article/watch-out-gpt-3-here-comes-ai21s-jurassic-language-model/) Aug. 2021 [close]  
    Jurassic-1: Technical Details and Evaluation [[Preprint]](https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf)
 
