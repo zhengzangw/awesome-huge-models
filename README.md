@@ -2,15 +2,15 @@
 
 # awesome-huge-models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+<!-- [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) -->
 
 A collection of AWESOME things about HUGE AI models.
 
-There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
+**[2023.06]** We are now in the post-GPT4 era, where LLMs are thriving and new models are emerging from GitHub repositories rather than traditional papers. People are striving to release everything openly, including training and inference codes, instruction-tuned weights and datasets, pretrained weights, and [the datasets used for pretraining LLMs](#open-llm-training-dataset). In this update, I try to catch up with the latest developments in the open-source wave of LLMs.
 
-To support the open source process of LLM, we highligh the open-sourced LLM models here:
+**[2023.03]** Only pretrained models are recorded here. Models are sorted according to the first release date. To support the open source process of LLM, we highligh the open-sourced LLM models with [[open]]().
 
-> LLaMA-65B, GLM-130B, BLOOM-176B, OPT-175B, T5-11B, UL2-20B, RWKV-14B, Cerabras-GPT-13B, Dolly-12B.
+**[2022.06]** There is a trend of training large-scale deep learning models (w.r.t. params, dataset, FLOPs) led by big companies. These models achieve the SoTA perfermance at a high price, with bags of training tricks and distributed training systems. Keeping an eye on this trend informs us of the current boundaries of AI models. [[Intro in Chinese](https://zhuanlan.zhihu.com/p/529863941)]
 
 <!-- omit in toc -->
 
@@ -25,6 +25,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
     - [Reinforcement Learning](#reinforcement-learning)
     - [Speech](#speech)
     - [Sicence](#sicence)
+  - [Open LLM Training Dataset](#open-llm-training-dataset)
   - [Distributed Training Framework](#distributed-training-framework)
     - [PyTorch Ecosystem](#pytorch-ecosystem)
     - [XLA Ecosystem](#xla-ecosystem)
@@ -35,26 +36,112 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 
 ## Survey
 
-- [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining)
-- [Compute Trends Across Three Eras of Machine Learning](https://arxiv.org/abs/2202.05924) [[chart](https://ourworldindata.org/grapher/ai-training-computation)]
-- [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101)
-- [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258)
-- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139)
-
 <p align="center">
-    <img src="img/ai-training-computation-2.png" alt="Big models in NLP" width="460"/>
+    <img src="img/ai-training-computation-202306.png" alt="Big models in NLP" width="460"/>
 </p >
+
+- [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223) [2023.03]
+- [A Dive into Vision-Language Models](https://huggingface.co/blog/vision_language_pretraining) [2023.02]
+- [Compute Trends Across Three Eras of Machine Learning](https://arxiv.org/abs/2202.05924) [[chart](https://ourworldindata.org/grapher/ai-training-computation)] [2022.02]
+- [Vision-and-Language Pretrained Models: A Survey](https://arxiv.org/abs/2204.07356) [2022.04]
+- [A Roadmap to Big Model](https://arxiv.org/abs/2203.14101) [2022.03]
+- [A Survey of Vision-Language Pre-trained Models](https://arxiv.org/abs/2202.10936) [2022.02]
+- [Transformers in Vision: A Survey](https://arxiv.org/abs/2101.01169) [2022.01]
+- [On the Opportunities and Risk of Foundation Models](https://arxiv.org/abs/2108.07258) [2021.08]
+- [Pre-Trained Models: Past, Present and Future](https://arxiv.org/abs/2106.07139) [2021.06]
+
+Resources list:
+
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
+- [Open-LLM](https://github.com/eugeneyan/open-llms)
+- [LLMDataHub](https://github.com/Zjh-819/LLMDataHub)
 
 ## Models
 
 ### Language Model
 
-- **Dolly 2.0** [[EleutherAI]](https://huggingface.co/databricks/dolly-v2-12b) Apr. 2023 [[open]]()  
+<p align="center">
+    <img src="img/llm-evolutionary-tree.png" alt="LLM evolutionary tree" width="460"/>
+</p >
+
+- **Baichuan** [[Baichuan]]() Jun. 2023 [[open]](https://github.com/baichuan-inc/baichuan-7B)
 
   ```yaml
   Field: Language
-  Params: 12B
-  Training Data: databricks-dolly-15k
+  Params: 7B
+  Training Data: 1.2T tokens (English, Chinese, Private)
+  License: Apache 2.0
+  Context: 4096
+  ```
+
+- **Falcon** [[TII]]() Jun. 2023 [[open]](https://huggingface.co/tiiuae/falcon-40b)
+
+  ```yaml
+  Field: Language
+  Params: 40B
+  Training Data: 1T tokens (RefinedWeb)
+  License: Apache 2.0
+  Context Length: 2048
+  ```
+
+- **OpenLLaMA** [[OpenLM]]() May. 2023 [[open]](https://github.com/openlm-research/open_llama)  
+
+  ```yaml
+  Field: Language
+  Params: 13B, 7B, 3B
+  Training Data: 1T tokens (RedPajama)
+  License: Apache 2.0
+  Context Length: 2048
+  ```
+
+- **Redpajama-INCITE** [[Together]](https://github.com/togethercomputer/RedPajama-Data) May. 2023 [[open]](https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1)
+
+  ```yaml
+  Field: Language
+  Params: 7B, 3B
+  Training Data: 1T tokens (Redpajama)
+  License: Apache 2.0
+  Context Length: 2048
+  ```
+
+- **MPT** [[MosaicML]](https://www.mosaicml.com/blog/mpt-7b) May. 2023 [[open]](https://github.com/mosaicml/llm-foundry)  
+
+  ```yaml
+  Field: Language
+  Params: 30B, 7B
+  Training Data: 1T tokens (Private)
+  License: Apache 2.0, CC BY-SA-3.0
+  Context Length: 84k
+  ```
+
+- **Stable-LM** [[Stability-AI]](https://stability.ai/blog/stability-ai-launches-the-first-of-its-stablelm-suite-of-language-models) Apr. 2023 [[open]](https://github.com/Stability-AI/StableLM#stablelm-alpha)
+
+  ```yaml
+  Field: Language
+  Params: 7B, 3B
+  Training Data: 1.5T tokens
+  License: CC BY-SA-4.0
+  ```
+
+- **LiT-LLaMa** [[Lightning-AI]]() Apr. 2023 [[open]](https://github.com/Lightning-AI/lit-llama)  
+  
+  ```yaml
+  Field: Language
+  Params: 13B, 7B
+  Training Data: 1.2T tokens (Redpajama)
+  License: Apache 2.0
+  ```
+
+- **h2oGPT** [[H2O.ai]](https://h2o.ai/blog/building-the-worlds-best-open-source-large-language-model-h2o-ais-journey/) [[open]](https://github.com/h2oai/h2ogpt)  
+  [h2oGPT: Democratizing Large Language Models](https://arxiv.org/pdf/2306.08161.pdf)
+
+  ```yaml
+  Field: Language
+  Params: 13B, 7B
+  Training Data: 1.0T tokens
+  License: Apache 2.0
+  Context Length: 2048
   ```
 
 - **Cerabras-GPT** [[Cerabras]]() Mar. 2023 [[open]](https://huggingface.co/cerebras/Cerebras-GPT-13B)  
@@ -63,12 +150,28 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 13B
-  Training Data: (371B tokens)
+  Training Data: 371B tokens (Redpajama)
+  License: Apache 2.0
+  Context Length: 2048
+  ```
+
+- **Claude** [[Anthropic]](https://www.anthropic.com/index/introducing-claude) Mar. 2023 [close]
+
+  ```yaml
+  Field: Language-Vision
   ```
 
 - **GPT-4** [[OpenAI]](https://openai.com/product/gpt-4) Mar. 2023 [close]  
    GPT-4 Technical Report [[Preprint]](https://cdn.openai.com/papers/gpt-4.pdf)
 
+  ```yaml
+  Field: Language-Vision
+  Params: 1.7T
+  Architecture: De, MoE
+  ```
+
+- **Bard** [[Google]](https://blog.google/technology/ai/bard-google-ai-search-updates/)
+  
   ```yaml
   Field: Language-Vision
   ```
@@ -78,18 +181,22 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 
   ```yaml
   Field: Language
-  Params: 65B
+  Params: 65B, 33B, 13B, 7B
   Training Data: 4TB (1.4T tokens)
   Training Cost: 1,022,362 (2048 80G-A100 x 21 days)
   Training Power Consumption: 449 MWh
+  Instruction-tuned Variants: Alpaca, Vicuna, Dolly, Guanaco, ColossalChat, GPT4All, Koala, BELLE, MiniGPT-4, etc.
+  License: GPL
   ```
 
-- **RWKV-4-14B** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)
+- **RWKV-4** [[Personal]]() Dec. 2022 [[open]](https://github.com/BlinkDL/RWKV-LM)
 
   ```yaml
   Field: Language
-  Params: 14B
-  Training Data: (332B tokens)
+  Params: 14B, 7B, 3B, 1.5B
+  Training Data: 332B tokens
+  Architecture: De, RNN
+  License: Apache 2.0
   ```
 
 - **AnthropicLM** [[Anthropic]]() Dec. 2022 [close]  
@@ -110,6 +217,9 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Cost: 1M A100 GPU hours = 384 80G-A100 x 4 months
   Training Power Consumption: 475 MWh
   Training Framework: Megatron + Deepspeed
+  Instruction-tuned Variants: BLOOMZ
+  License: OpenRAIL-M v1
+  Context Length: 2048
   ```
 
 - **Pythia** [[EleutherAI]]() Oct. 2022 [[open]](https://github.com/EleutherAI/pythia)
@@ -117,6 +227,9 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 12B
+  Instruction-tuned Variants: Dolly 2.0
+  License: Apache 2.0
+  Context Length: 2048
   ```
 
 - **GLM-130B** [[BAAI]](https://keg.cs.tsinghua.edu.cn/glm-130b/zh/posts/glm-130b/) Oct. 2022 [[open]](https://github.com/THUDM/GLM-130B)  
@@ -139,6 +252,9 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training Data: 800GB
   Achitecture: En-De
   Training Framework: Jax + T5x
+  License: Apache 2.0
+  Instruction-tuned Variants: Flan-UL2
+  Context Length: 2048
   ```
 
 - **OPT** [[Meta]](https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/) May 2022 [[open]](https://github.com/facebookresearch/metaseq)  
@@ -177,6 +293,8 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training petaFLOPs: 93B
   Architecture: De
   Training Framework: Megatron + Fairscale
+  License: Apache 2.0
+  Context Length: 2048
   ```
 
 - **InstructGPT** [[OpenAI]]() Mar. 2022 [close]  
@@ -237,16 +355,6 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Architecture: De
   ```
 
-- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2022 [close]  
-   ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
-
-  ```yaml
-  Field: Image Generation (text to image)
-  Params: 10B
-  Training Data: (145M text-image pairs)
-  Architecture: Transformer, dVAE + De
-  ```
-
 - **GLaM** [[Google]](https://ai.googleblog.com/2021/12/more-efficient-in-context-learning-with.html) Dec. 2021 [close]  
    GLaM: Efficient Scaling of Language Models with Mixture-of-Experts [[Preprint]](https://arxiv.org/abs/2112.06905)
 
@@ -284,7 +392,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 530B
-  Training Data: (339B tokens)
+  Training Data: 339B tokens
   Training petaFLOPs: 1.4B
   Architecture: De
   ```
@@ -346,7 +454,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 82B
-  Training Data: (562B tokens, Korean)
+  Training Data: 562B tokens (Korean)
   Training petaFLOPs: 63B
   Architecture: De
   ```
@@ -435,6 +543,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training petaFLOPs: 310M
   Architecture: De
   Obective: LTR
+  Instruction-tuned Variants: InstructGPT, WebGPT, ChatGPT
   ```
 
 - **Blender** [[Meta]](https://ai.facebook.com/blog/blender-bot-2-an-open-source-chatbot-that-builds-long-term-memory-and-searches-the-internet/) Apr. 2020 [[close]](https://huggingface.co/facebook/blenderbot-90M?text=Hey+my+name+is+Thomas%21+How+are+you%3F)  
@@ -486,6 +595,9 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Training petaFLOPs: 41M
   Architecture: En-De
   Obective: MLM
+  License: Apache 2.0
+  Instruction-tuned Variants: Flan-T5
+  Context-Length: 512
   ```
 
 - **Megatron-LM** [[Nvidia]]() Sept. 2019 [[open]](https://github.com/NVIDIA/Megatron-LM)  
@@ -494,7 +606,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 8.3B
-  Training Data: 174 GB
+  Training Data: 174GB
   Training petaFLOPs: 9.1M
   Architecture: De
   Obective: LTR
@@ -507,7 +619,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Language
   Params: 3.9B
-  Training Data: 174 GB
+  Training Data: 174GB
   Training petaFLOPs: 57M
   Architecture: En
   Obective: MLM
@@ -580,13 +692,24 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
 
 ### Vision Models
 
+- **Eva02-E** [[BAAI]]() Mar. 2023 [[open]](https://github.com/huggingface/pytorch-image-models/tree/main)  
+  EVA-02: A Visual Representation for Neon Genesis [[Preprint]](https://arxiv.org/abs/2303.11331v2)
+
+  ```yaml
+  Field: Vision-Language
+  Params: 5B
+  Training Data: 2B image-text pairs
+  Architecture: Transformer
+  Objective: MIM, Clip Constrastive
+  ```
+
 - **MAE->WSP-2B** [[Meta]]() Mar. 2023 [close]  
-   The effectiveness of MAE pre-pretraining for billion-scale pretraining
+   The effectiveness of MAE pre-pretraining for billion-scale pretraining [[Preprint]](https://arxiv.org/abs/2303.13496)
 
   ```yaml
   Field: Vision
   Params: 6.5B
-  Training Data: (3B images)
+  Training Data: 3B images
   Architecture: Transformer
   Objective: MAE, Weakly-Supervised
   ```
@@ -596,18 +719,28 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision-Language
   Params: 2.5B
-  Training Data: (2B images)
+  Training Data: 2B images
   ```
 
-- **ViT-22B** [[Google]]() Feb. 2023 [close]
-  Scaling Vision Transformers to 22 Billion Parameters
+- **ViT-22B** [[Google]]() Feb. 2023 [close]  
+  [Scaling Vision Transformers to 22 Billion Parameters](https://arxiv.org/abs/2302.05442)
 
   ```yaml
   Field: Vision
   Params: 22B
-  Training Data: (4B images)
+  Training Data: 4B images
   Architecture: Transformer
   Objective: Supervised
+  ```
+
+- **ERNIE-ViLG** [[Baidu]](https://wenxin.baidu.com/wenxin/ernie-vilg) Dec. 2022 [close]  
+   ERNIE-ViLG: Unified Generative Pre-training for Bidirectional Vision-Language Generation [[Preprint]](https://arxiv.org/abs/2112.15283)
+
+  ```yaml
+  Field: Image Generation (text to image)
+  Params: 10B
+  Training Data: 145M text-image pairs
+  Architecture: Transformer, dVAE + De
   ```
 
 - **InternImage-G** [[Shanghai AI Lab]](https://github.com/OpenGVLab/InternImage) Nov. 2022 [[open]](https://github.com/OpenGVLab/InternImage)
@@ -625,7 +758,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Image Generation (text to image)
   Params: 890M
-  Training Data: (5B images)
+  Training Data: 5B images
   Architecture: Transformer, Diffusion
   ```
 
@@ -671,7 +804,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision
   Params: 10B
-  Training Data: (1B images)
+  Training Data: 1B images
   Architecture: Convolution
   Objective: SwAV
   ```
@@ -682,7 +815,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Image Generation (text to image)
   Params: 10B
-  Training Data: (145M text-image pairs)
+  Training Data: 145M text-image pairs
   Architecture: Transformer, dVAE + De
   ```
 
@@ -719,7 +852,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision
   Params: 1.8B
-  Training Data: (300M images)
+  Training Data: 300M images
   Training petaFLOPs: 3.4M
   Architecture: Transformer
   Objective: Supervised
@@ -731,7 +864,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision
   Params: 2.4B
-  Training Data: (300M images)
+  Training Data: 300M images
   Architecture: Transformer, Convolution
   Objective: Supervised
   ```
@@ -742,7 +875,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision
   Params: 15B
-  Training Data: (300M images)
+  Training Data: 300M images
   Training Time: 16.8k TPUv3 days
   Training petaFLOPs: 33.9M
   Architecture: Transformer, MoE
@@ -755,7 +888,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision-Language
   Params: 4B
-  Training Data: (30M text-image pairs)
+  Training Data: 30M text-image pairs
   Training petaFLOPs: 27M
   Image Encoder: VAE
   Text Encoder & Image Decoder: GPT2
@@ -779,7 +912,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Image Generation (text to image)
   Params: 12B
-  Training Data: (250M text-images pairs)
+  Training Data: 250M text-images pairs
   Training petaFLOPs: 47M
   Image Encoder: dVAE
   Text Encoder & Image Decoder: GPT2
@@ -804,7 +937,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Vision
   Params: 632M
-  Training Data: (300M images)
+  Training Data: 300M images
   Training petaFLOPs: 13M
   Architecture: Transformer
   Objective: Supervised
@@ -816,7 +949,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Image Generation
   Params: 6.8B
-  Training Data: (1M images)
+  Training Data: 1M images
   Training petaFLOPs: 33M
   Architecture: Transformer, De
   ```
@@ -827,7 +960,7 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   ```yaml
   Field: Image Generation
   Params: 158M
-  Training Data: (300M images)
+  Training Data: 300M images
   Training petaFLOPs: 3M
   Architecture: Convolution, GAN
   Resolution: 512x512
@@ -915,6 +1048,16 @@ To support the open source process of LLM, we highligh the open-sourced LLM mode
   Params: 21B
   Training petaFLOPs: 100k
   ```
+
+## Open LLM Training Dataset
+
+This section will be reorganized. For now, as LLM prevails and data quality is a key for the performance of LLM, we keep track of this trend.
+
+- [SlimPajama](https://huggingface.co/datasets/cerebras/SlimPajama-627B): 627B tokens, 895GB Compressed, primarily English, cleaned from RedPajama, Apache 2.0
+- [RefinedWeb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb): ~600B tokens, 500GB Compressed, English, ODC-By 1.0 license (The 5T tokens version is private)
+- [MNBVC](https://github.com/esbatmop/MNBVC): 5TB (on-going, target 40TB), Chinese, MIT License
+- [The Pile](https://pile.eleuther.ai/): 825G
+- [RedPajama](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T): 1.2T tokens
 
 ## Distributed Training Framework
 
