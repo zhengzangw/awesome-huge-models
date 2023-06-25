@@ -24,12 +24,12 @@ A collection of AWESOME things about HUGE AI models.
     - [Vision Models](#vision-models)
     - [Reinforcement Learning](#reinforcement-learning)
     - [Speech](#speech)
-    - [Sicence](#sicence)
+    - [Science](#science)
   - [Open LLM Training Dataset](#open-llm-training-dataset)
   - [Distributed Training Framework](#distributed-training-framework)
     - [PyTorch Ecosystem](#pytorch-ecosystem)
     - [XLA Ecosystem](#xla-ecosystem)
-    - [Other Framworks](#other-framworks)
+    - [Other Frameworks](#other-frameworks)
     - [Inference Frameworks](#inference-frameworks)
     - [Recommendation Training Framework](#recommendation-training-framework)
   - [Keys Explanations](#keys-explanations)
@@ -221,6 +221,14 @@ Resources list:
   License: OpenRAIL-M v1
   Context Length: 2048
   ```
+  
+- **Galactica** [[Meta]]() Nov. 2022 [[open]](https://huggingface.co/facebook/galactica-1.3b)
+  A scientific language model trained on over 48 million scientific texts [[Preprint]](https://arxiv.org/pdf/2211.09085.pdf)
+  
+  ```yaml
+  Field: Language
+  Params: 125M, 1.3B, 6.7B, 30B, 120B
+  ```
 
 - **Pythia** [[EleutherAI]]() Oct. 2022 [[open]](https://github.com/EleutherAI/pythia)
   
@@ -311,7 +319,7 @@ Resources list:
   ```yaml
   Field: Language
   Params: 70B
-  Training Data: 5.2TB (500B tokens)
+  Training Data: 5.2TB (1.4T tokens)
   Training petaFLOPs: 580M
   Architecture: De
   ```
@@ -1038,7 +1046,7 @@ Resources list:
       Training Data: 21,340 hours
       ```
 
-### Sicence
+### Science
 
 - **AlphaFold 2** [[DeepMind]](https://www.deepmind.com/research/highlighted-research/alphafold) July 2021 [[open]](https://github.com/deepmind/alphafold)  
    Highly accurate protein structure prediction with AlphaFold [[Nature]](https://www.nature.com/articles/s41586-021-03819-2)
@@ -1095,7 +1103,7 @@ This section will be reorganized. For now, as LLM prevails and data quality is a
 - **Tensorflow\*** [[Google]](https://www.tensorflow.org/) Nov. 2015 [[open]](https://github.com/tensorflow/tensorflow)  
    TensorFlow: A system for large-scale machine learning [[OSDI'16]](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
 
-### Other Framworks
+### Other Frameworks
 
 - **OneFlow\*** [[OneFlow]](https://docs.oneflow.org/master/index.html) July 2020 [[open]](https://github.com/OneFlow-Inc/oneflow)  
    OneFlow: Redesign the Distributed Deep Learning Framework from Scratch [[Preprint]](https://arxiv.org/abs/2110.15032)
